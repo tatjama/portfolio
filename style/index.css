@@ -30,6 +30,10 @@ button{
     color: springgreen;
     font-weight: bold;
     font-stretch: ultra-condensed;
+    /*box-shadow: 4px 4px 8px rgb(100, 100, 100), -4px -4px 8px rgb(200, 200, 200);
+    box-shadow: 4px 4px 8px rgb(200, 200, 200), -4px -4px 8px rgb(100, 100, 100);*/
+    text-shadow: 4px 4px 8px rgb(200, 200, 200), -4px -4px 8px rgb(100, 100, 100);
+    
 }
 .second{
     background-color: rgb(160, 160, 160);
@@ -81,7 +85,11 @@ button{
 .fourth h1 span{
     font-stretch: ultra-condensed;
     color: red;
-    font-weight: bold;
+    font-weight: bold;    
+    /*box-shadow: 4px 4px 8px rgb(40, 40, 40), -4px -4px 8px rgb(160, 160, 160);    
+    box-shadow: 4px 4px 8px rgb(100, 100, 100), -4px -4px 8px rgb(40, 40, 40);*/
+    text-shadow: 4px 4px 8px rgb(100, 100, 100), -4px -4px 8px rgb(40, 40, 40);
+    
 }
 .fourth{
     background-color: rgb(80, 80, 80);
@@ -175,6 +183,11 @@ button{
 }
 .dark-color .circle.in{
     background-color: red;
+    box-shadow: 4px 4px 8px rgb(100, 100, 100), -4px -4px 8px rgb(40, 40, 40);
+}
+.dark-color .circle.in.up{
+    background-color: red;    
+    box-shadow: 4px 4px 8px rgb(40, 40, 40), -4px -4px 8px rgb(160, 160, 160);
 }
 @media screen and (max-width: 800px){
     .container{    
