@@ -131,9 +131,7 @@ button{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-}
-div.red{
-    margin: 10px;
+    padding: 20px 10px;
 }
 .circle{
     border-radius: 50%;
@@ -142,25 +140,33 @@ div.red{
 }
 .out{
     width: 50px;
+    height: 50px;    
+}
+.in{
+    width: 30px;
+    height: 30px;    
+}
+
+.pressed{
+    width: 50px;
     height: 50px;
-    
 }
 .red .circle.out{
     box-shadow: 4px 4px 8px rgb(40, 40, 40), -4px -4px 8px rgb(255, 60, 60);
 }
-.in{
-    width: 30px;
-    height: 30px;
-    
-    
-}
+
 .red .circle.in{
     box-shadow: 4px 4px 8px rgb(255, 60, 60), -4px -4px 8px rgb(40, 40, 40);
 
 }
-.pressed{
-    width: 50px;
-    height: 50px;
+.dark .circle.out{
+    box-shadow: 4px 4px 8px rgb(40, 40, 40), -4px -4px 8px rgb(160, 160, 160);
+}
+
+.dark .circle.in{
+    
+    box-shadow: 4px 4px 8px rgb(100, 100, 100), -4px -4px 8px rgb(40, 40, 40);
+
 }
 @media screen and (max-width: 800px){
     .container{    
