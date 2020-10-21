@@ -22,8 +22,7 @@ button{
     height: 50px;
     border-radius: 30px;
     border: none;
-    margin: 10px 10px;
-    
+    margin: 10px 10px;    
     font-size: large;
     font-weight: normal;
 }
@@ -127,6 +126,41 @@ button{
     text-shadow: 2px 2px 4px rgb(255, 60, 60), -2px -2px 4px rgb(88, 1, 1);
     box-shadow: 4px 4px 8px rgb(255, 60, 60), -4px -4px 8px rgb(40, 40, 40);
     font-stretch: extra-condensed;
+}
+.direction-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+div.red{
+    margin: 10px;
+}
+.circle{
+    border-radius: 50%;
+    padding: 5px;
+    border: solid 5px rgb(80, 80, 80);
+}
+.out{
+    width: 50px;
+    height: 50px;
+    
+}
+.red .circle.out{
+    box-shadow: 4px 4px 8px rgb(40, 40, 40), -4px -4px 8px rgb(255, 60, 60);
+}
+.in{
+    width: 30px;
+    height: 30px;
+    
+    
+}
+.red .circle.in{
+    box-shadow: 4px 4px 8px rgb(255, 60, 60), -4px -4px 8px rgb(40, 40, 40);
+
+}
+.pressed{
+    width: 50px;
+    height: 50px;
 }
 @media screen and (max-width: 800px){
     .container{    
