@@ -159,14 +159,22 @@ button{
     box-shadow: 4px 4px 8px rgb(255, 60, 60), -4px -4px 8px rgb(40, 40, 40);
 
 }
-.dark .circle.out{
+.dark .circle.out,
+.dark-color .circle.out{
     box-shadow: 4px 4px 8px rgb(40, 40, 40), -4px -4px 8px rgb(160, 160, 160);
 }
 
-.dark .circle.in{
-    
+.dark .circle.in,
+.dark-color .circle.in{    
     box-shadow: 4px 4px 8px rgb(100, 100, 100), -4px -4px 8px rgb(40, 40, 40);
-
+}
+.dark-color .circle.out{
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+}
+.dark-color .circle.in{
+    background-color: red;
 }
 @media screen and (max-width: 800px){
     .container{    
