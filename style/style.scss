@@ -1,0 +1,374 @@
+ 
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body, html{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container{    
+    padding: 5% 10%;
+    width: 100%;
+}
+h1{    
+    font-weight: bolder;
+    font-size: 5em;
+}
+button{
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    margin: 10px 10px;    
+    font-size: large;
+    font-weight: normal;
+}
+/*dark mode variables*/
+$darkPrimaryColor:rgb(80, 80, 80);
+$darkSecondaryColor: rgb(255, 0, 0);
+
+/*light mode variables*/
+$lightPrimaryColor: rgb(160, 160, 160);
+$lightPrimaryShadowDark: rgb(100, 100, 100);
+$lightPrimaryShadowLight: rgb(200, 200, 200);
+$lightSecondaryColor: rgb(0, 255, 127);
+
+.second h1 span{
+    color: $lightSecondaryColor;
+    font-weight: bold;
+    font-stretch: ultra-condensed;
+    /*box-shadow: 4px 4px 8px rgb(100, 100, 100), -4px -4px 8px rgb(200, 200, 200);
+    box-shadow: 4px 4px 8px rgb(200, 200, 200), -4px -4px 8px rgb(100, 100, 100);*/
+    text-shadow: 4px 4px 8px $lightPrimaryShadowLight, -4px -4px 8px $lightPrimaryShadowDark;
+}
+.second{
+    background-color: $lightPrimaryColor;
+}
+.second h1{
+    color: $lightPrimaryColor;   
+    text-shadow: 4px 4px 8px $lightPrimaryShadowDark, -4px -4px 8px $lightPrimaryShadowLight;    
+}
+.second button{
+    color: $lightPrimaryShadowDark;
+    background-color: $lightPrimaryColor; 
+}
+.second button.up.light{        
+    text-shadow: 2px 2px 4px rgb(80, 80, 80), -2px -2px 4px $lightPrimaryShadowLight;     
+    box-shadow: 4px 4px 8px $lightPrimaryShadowDark , -4px -4px 8px $lightPrimaryShadowLight;
+    
+}
+.second button.down.light{    
+    text-shadow: 2px 2px 4px $lightPrimaryShadowLight, -2px -2px 4px rgb(80, 80, 80);
+    box-shadow: 4px 4px 8px $lightPrimaryShadowLight, -4px -4px 8px $lightPrimaryShadowDark;
+    font-stretch: ultra-condensed;
+    font-weight: bolder;
+}
+.second button.up.green{        
+    color: $lightSecondaryColor;
+    text-shadow: 2px 2px 4px rgb(0, 80, 0), -2px -2px 4px rgb(142, 245, 142);     
+    box-shadow: 4px 4px 8px $lightPrimaryShadowDark, -4px -4px 8px rgb(200, 255, 200);
+    
+}
+.second button.down.green{    
+    color: rgb(0, 148, 17);
+    text-shadow: 2px 2px 4px rgb(200, 255, 200), -2px -2px 4px rgb(40, 80, 40);
+    box-shadow: 4px 4px 8px rgb(200, 255, 200), -4px -4px 8px $lightPrimaryShadowDark;
+    font-stretch: semi-condensed;
+    
+}
+.second button.up.blue{        
+    color: rgb(0, 217, 255);
+    text-shadow: 2px 2px 4px rgb(80, 80, 80), -2px -2px 4px rgb(200, 200, 200);     
+    box-shadow: 4px 4px 8px $lightPrimaryShadowDark, -4px -4px 8px rgb(200, 200, 200);
+}
+.second button.down.blue{    
+    color: rgb(61, 61, 253);
+    text-shadow: 2px 2px 4px rgb(200, 200, 200), -2px -2px 4px rgb(80, 80, 80);
+    box-shadow: 4px 4px 8px rgb(200, 200, 200), -4px -4px 8px $lightPrimaryShadowDark;
+    font-stretch: ultra-condensed;
+}
+
+.green .circle{
+    border: rgb(0, 148, 17) solid 5px ;
+}
+.green .circle.out{         
+    box-shadow: 4px 4px 8px $lightPrimaryShadowDark, -4px -4px 8px $lightPrimaryShadowLight;
+}
+.green .circle.in{    
+    box-shadow: 4px 4px 8px rgb(200, 255, 200), -4px -4px 8px $lightPrimaryShadowDark;
+}
+.green.basic .circle{
+    border: rgb(160, 160, 160) 5px solid;
+}
+.green.dark .circle{
+    border: rgb(160, 160, 160) 5px solid;;
+}
+.green.dark .circle.out{
+    border: rgb(160, 160, 160) 5px solid;       
+    box-shadow: 4px 4px 8px $lightPrimaryShadowDark, -4px -4px 8px $lightPrimaryShadowLight;
+}
+.green.dark .circle.in{
+    border: rgb(160, 160, 160) 5px solid;    
+    box-shadow: 4px 4px 8px $lightPrimaryShadowLight, -4px -4px 8px $lightPrimaryShadowDark;
+}
+.dark-color-green .circle{
+    border: rgb(160, 160, 160) 5px solid;
+}
+.dark-color-green .circle.out,
+.dark-color-green .circle.out{
+    box-shadow: 4px 4px 8px rgb(40, 40, 40), -4px -4px 8px rgb(160, 160, 160);
+}
+.dark-color-green .circle.in,
+.dark-color-green .circle.in{    
+    box-shadow: 4px 4px 8px $lightPrimaryShadowDark, -4px -4px 8px rgb(40, 40, 40);
+}
+.dark-color-green .circle.in{
+    background-color: $lightSecondaryColor;
+    box-shadow: 4px 4px 8px $lightPrimaryShadowDark, -4px -4px 8px rgb(40, 40, 40);
+}
+.dark-color-green .circle.in.up{
+    background-color: $lightSecondaryColor;    
+    box-shadow: 4px 4px 8px rgb(40, 40, 40), -4px -4px 8px rgb(160, 160, 160);
+}
+
+
+.fourth h1 span{
+    font-stretch: ultra-condensed;
+    color: $darkSecondaryColor;
+    font-weight: bold;    
+    /*box-shadow: 4px 4px 8px rgb(40, 40, 40), -4px -4px 8px rgb(160, 160, 160);    
+    box-shadow: 4px 4px 8px rgb(100, 100, 100), -4px -4px 8px rgb(40, 40, 40);*/
+    text-shadow: 4px 4px 8px $lightPrimaryShadowDark, -4px -4px 8px rgb(40, 40, 40);
+    
+}
+.fourth{
+    background-color: $darkPrimaryColor;
+}
+.fourth h1{
+    color: $darkPrimaryColor;
+    text-shadow: 4px 4px 8px rgb(40, 40, 40), -4px -4px 8px $lightPrimaryShadowDark;
+}
+.fourth button{    
+    background-color: rgb(80, 80, 80);
+}
+.fourth button.up.dark{
+    color: rgb(40, 40, 40);    
+    text-shadow: 2px 2px 4px rgb(20, 20, 20), -2px -2px 4px rgb(160, 160, 160);
+    box-shadow: 4px 4px 8px rgb(40, 40, 40), -4px -4px 8px rgb(160, 160, 160);
+}
+.fourth button.down.dark{
+    color: rgb(40, 40, 40);    
+    text-shadow: 2px 2px 4px $lightPrimaryShadowDark, -2px -2px 4px rgb(20, 20, 20);
+    box-shadow: 4px 4px 8px $lightPrimaryShadowDark, -4px -4px 8px rgb(40, 40, 40);
+    font-stretch: extra-condensed;
+}
+.fourth button.up.light{
+    color: rgb(200, 200, 200);    
+    text-shadow: 2px 2px 4px rgb(80, 80, 80), -2px -2px 4px rgb(200, 200, 200);
+    box-shadow: 4px 4px 8px $lightPrimaryShadowDark, -4px -4px 8px rgb(200, 200, 200);
+}
+.fourth button.down.light{
+    color: rgb(200, 200, 200);    
+    text-shadow: 2px 2px 4px rgb(200, 200, 200), -2px -2px 4px rgb(80, 80, 80);
+    box-shadow: 4px 4px 8px rgb(200, 200, 200), -4px -4px 8px $lightPrimaryShadowDark;
+    font-stretch: extra-condensed;
+}
+.fourth button.up.red{
+    color: $darkSecondaryColor;
+    text-shadow: 2px 2px 4px rgb(80, 0, 0), -2px -2px 4px rgb(255, 120, 120);
+    box-shadow: 4px 4px 8px rgb(40, 40, 40), -4px -4px 8px rgb(255, 60, 60);
+    
+}
+.fourth button.down.red{
+    color: rgb(255, 0, 0);
+    text-shadow: 2px 2px 4px rgb(255, 60, 60), -2px -2px 4px rgb(88, 1, 1);
+    box-shadow: 4px 4px 8px rgb(255, 60, 60), -4px -4px 8px rgb(40, 40, 40);
+    font-stretch: extra-condensed;
+}
+.direction-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 10px;
+}
+.fourth .circle{
+    border: solid 5px rgb(80, 80, 80);
+}
+.circle{    
+    border-radius: 50%;
+    padding: 5px;
+}
+.out{
+    width: 50px;
+    height: 50px;    
+}
+.in{
+    width: 30px;
+    height: 30px;    
+}
+
+.pressed{
+    width: 50px;
+    height: 50px;
+}
+
+.dark-color .circle.out{
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+}
+.red .circle.out{
+    box-shadow: 4px 4px 8px rgb(40, 40, 40), -4px -4px 8px rgb(255, 60, 60);
+}
+
+.red .circle.in{
+    box-shadow: 4px 4px 8px rgb(255, 60, 60), -4px -4px 8px rgb(40, 40, 40);
+}
+
+.dark .circle.out,
+.dark-color .circle.out{
+    box-shadow: 4px 4px 8px rgb(40, 40, 40), -4px -4px 8px rgb(160, 160, 160);
+}
+.dark .circle.in,
+.dark-color .circle.in{    
+    box-shadow: 4px 4px 8px $lightPrimaryShadowDark, -4px -4px 8px rgb(40, 40, 40);
+}
+.dark-color .circle.in{
+    background-color: red;
+    box-shadow: 4px 4px 8px $lightPrimaryShadowDark, -4px -4px 8px rgb(40, 40, 40);
+}
+.dark-color .circle.in.up{
+    background-color: red;    
+    box-shadow: 4px 4px 8px rgb(40, 40, 40), -4px -4px 8px rgb(160, 160, 160);
+}
+.green .circle{
+    border: rgb(0, 148, 17) solid 5px ;
+}
+.green .circle.out{         
+    box-shadow: 4px 4px 8px $lightPrimaryShadowDark, -4px -4px 8px rgb(200, 200, 200);
+}
+.green .circle.in{    
+    box-shadow: 4px 4px 8px rgb(200, 255, 200), -4px -4px 8px $lightPrimaryShadowDark;
+}
+.green.basic .circle{
+    border: rgb(160, 160, 160) 5px solid;
+}
+.green.dark .circle{
+    border: rgb(160, 160, 160) 5px solid;;
+}
+.green.dark .circle.out{
+    border: rgb(160, 160, 160) 5px solid;       
+    box-shadow: 4px 4px 8px $lightPrimaryShadowDark, -4px -4px 8px rgb(200, 200, 200);
+}
+.green.dark .circle.in{
+    border: rgb(160, 160, 160) 5px solid;    
+    box-shadow: 4px 4px 8px rgb(200, 200, 200), -4px -4px 8px $lightPrimaryShadowDark;
+}
+.dark-color-green .circle{
+    border: rgb(160, 160, 160) 5px solid;
+}
+.dark-color-green .circle.out,
+.dark-color-green .circle.out{
+    box-shadow: 4px 4px 8px rgb(40, 40, 40), -4px -4px 8px rgb(160, 160, 160);
+}
+.dark-color-green .circle.in,
+.dark-color-green .circle.in{    
+    box-shadow: 4px 4px 8px $lightPrimaryShadowDark, -4px -4px 8px rgb(40, 40, 40);
+}
+.dark-color-green .circle.in{
+    background-color: $lightSecondaryColor;
+    box-shadow: 4px 4px 8px $lightPrimaryShadowDark, -4px -4px 8px rgb(40, 40, 40);
+}
+.dark-color-green .circle.in.up{
+    background-color: $lightSecondaryColor;    
+    box-shadow: 4px 4px 8px rgb(40, 40, 40), -4px -4px 8px rgb(160, 160, 160);
+}
+
+@media screen and (max-width: 800px){
+    .container{    
+        padding: 5% 5%;
+        width: 100%;
+    }
+    h1{    
+        font-weight: bolder;
+        font-size: 3em;
+    }
+    button{
+        width: 80px;
+        height: 40px;
+        font-size: medium;
+    }
+    .second h1{    
+        text-shadow: 3px 3px 6px $lightPrimaryShadowDark, -3px -3px 6px rgb(200, 200, 200);    
+    }
+    
+.fourth h1{
+    text-shadow: 3px 3px 6px rgb(50, 50, 50), -3px -3px 6px $lightPrimaryShadowDark;
+}
+
+}
+@media screen and (max-width: 630px){
+    .container{    
+        padding: 5% 5%;
+        width: 100%;
+    }
+    .second h1{    
+        text-shadow: 2px 2px 4px $lightPrimaryShadowDark, -2px -2px 4px rgb(200, 200, 200);    
+    }
+    h1{    
+        font-weight: bolder;
+        font-size: 3em;
+    }
+    button{
+        width: 70px;
+        height: 35px;
+        font-size: small;
+    }
+    
+.fourth h1{
+    color: rgb(80, 80, 80);
+    text-shadow: 2px 2px 4px rgb(50, 50, 50), -2px -2px 4px $lightPrimaryShadowDark;
+}
+
+}
+@media screen and (max-width: 500px){
+    .container{    
+        padding: 5% 5%;
+        width: 100%;
+    }
+    h1{    
+        font-weight: bolder;
+        font-size: 2em;
+    }
+
+}
+
+
+.first h1 span{
+    font-style: italic;
+    color: lawngreen;
+}
+.first{
+    background-color: rgb(128, 128, 128);
+}
+.first h1{
+    color: rgb(128, 128, 128);
+    text-shadow: 6px 6px 12px rgb(104, 99, 99), -6px -6px 12px rgb(167, 159, 159);
+}
+.third h1 span{
+    font-style: oblique;
+    color: rgb(0, 217, 255);
+}
+.third{
+    background-color: $lightPrimaryShadowDark;
+}
+.third h1{
+    color: $lightPrimaryShadowDark;    
+    text-shadow: 6px 6px 12px rgb(80, 80, 80), -6px -6px 12px rgb(128, 128, 128);
+    
+}
