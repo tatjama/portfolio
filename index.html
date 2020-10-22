@@ -46,6 +46,19 @@
     <body>
         
         <div class="container fourth">
+            <div class="mode-container">
+                <div class="dark">
+                    <div class="circle out oval">
+                        <div class="circle in oval">             
+                            <div id="mode" class="direction-row">                
+                                <button id = "light-mode" class="up black">light</button>
+                                <button id = "dark-mode" class = "down black" onclick = "changeMode()">dark</button>
+                                <button id = "fancy-mode" class="up black">fancy</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <h1>Hello, my name is <span>Tanja</span></h1>
             <h1>I like create Web App...</h1>
             <section>
@@ -120,9 +133,18 @@
                 </div>
                 
                 </div>
-
+                <div class="direction-row">
+                    <div  class="square-out gray-secondary">
+                        <div class="square-in gray-secondary">
+        
+                        </div>
+                    </div>
+                    <div  class="square-out gray-secondary">
+                    </div>
+                </div>
             </div>
-        </div>
+
+                 </div>
 
         
         <div class="container second">
@@ -214,6 +236,8 @@
                     </div>
                     
                 </div>
+                <div  class="square-out">
+                </div>
             </div>
         </div>
         
@@ -240,4 +264,16 @@
             </div>
         </div>
     </body>
+    <script type="text/javascript">
+        const changeColor = (color) => {
+           let elementArray = document.querySelectorAll(".red")
+           for( let i = 0; i < elementArray.length; i++){            
+            elementArray[i].setAttribute("class", color)
+           }
+            alert("change color")
+        }
+        const changeMode = () => {
+            alert("change mode")
+        }
+    </script>
 </html>
