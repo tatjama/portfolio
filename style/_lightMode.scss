@@ -9,44 +9,40 @@
 
 /*Button*/
 
-.second{
-    button{
+    .up-light{        
         color: $grayShadow;
-        background-color: $grayPrimaryColor;
-    }     
-    .up.light{        
         text-shadow: 2px 2px 4px $graySecondaryColor, -2px -2px 4px $grayShadowLight;     
         box-shadow: 4px 4px 8px $grayShadow , -4px -4px 8px $grayShadowLight;        
     }
-    .down.light{    
+    .down-light{   
+        color: $grayShadow; 
         text-shadow: 2px 2px 4px $grayShadowLight, -2px -2px 4px $graySecondaryColor;
         box-shadow: 4px 4px 8px $grayShadowLight, -4px -4px 8px $grayShadow;
         font-stretch: ultra-condensed;
         font-weight: bolder;
     }
-    .up.green{        
+    .up-green{        
         color: $greenPrimaryColor;
         text-shadow: 2px 2px 4px$greenShadow, -2px -2px 4px $greenShadowLight;     
         box-shadow: 4px 4px 8px $grayShadow, -4px -4px 8px $greenShadowLighter;        
     }
-    .down.green{    
+    .down-green{    
         color: $greenPrimaryColor;
         text-shadow: 2px 2px 4px $greenShadowLighter, -2px -2px 4px $greenShadow;
         box-shadow: 4px 4px 8px $greenShadowLighter, -4px -4px 8px $grayShadow;
-        font-stretch: semi-condensed;        
+        font-stretch: ultra-condensed;        
     }
-    .up.blue{        
+    .up-blue{        
         color: rgb(0, 217, 255);
         text-shadow: 2px 2px 4px $graySecondaryColor, -2px -2px 4px $grayShadowLight;     
         box-shadow: 4px 4px 8px $grayShadow, -4px -4px 8px $grayShadowLight;
     }
-    .down.blue{    
+    .down-blue{    
         color: rgb(61, 61, 253);
         text-shadow: 2px 2px 4px $grayShadowLight, -2px -2px 4px $graySecondaryColor;
         box-shadow: 4px 4px 8px $grayShadowLight, -4px -4px 8px $grayShadow;
         font-stretch: ultra-condensed;
     }
-}
 
  
 /*Colors*/
