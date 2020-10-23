@@ -1,25 +1,11 @@
 /*DARK MODE*/
 
-
-.fourth{
-    background-color: $graySecondaryColor;
-    h1{
-        color: $graySecondaryColor;
-        text-shadow: 4px 4px 8px $grayShadowDark, -4px -4px 8px $grayShadow;
-        span{
-            font-stretch: ultra-condensed;
-            color: $redPrimaryColor;
-            font-weight: bold;   
+.fourth span{   
             text-shadow: 4px 4px 8px $grayShadow, -4px -4px 8px $grayShadowDark;    
-        }
-    }
-}
-/*Button*/
+        }    
 
-.fourth{
-    button{    
-        background-color: $graySecondaryColor;
-    }
+/*Button*/
+    
     button.up.dark{
         color: $grayShadowDark;    
         text-shadow: 2px 2px 4px $grayShadowDarker, -2px -2px 4px $grayPrimaryColor;
@@ -62,49 +48,43 @@
         box-shadow: 4px 4px 8px $redShadowLight, -4px -4px 8px $grayShadowDark;
         font-stretch: extra-condensed;
     }
-}  
+  
 
-/*Circles*/
 
-.fourth .circle{
-    border: solid 5px $graySecondaryColor;
+/*Colors*/
+.color-red{
+    background-color: $redPrimaryColor;
 }
-
-.red .circle.out{
+.color-gray-secondary{
+    background-color: $graySecondaryColor;
+}
+.text-gray-secondary-color{
+    color: $graySecondaryColor;
+}
+.text-color-red{
+    color: $redPrimaryColor;
+}
+/*Shadows*/
+.text-gray-secondary-shadow{
+    text-shadow: 4px 4px 8px $grayShadowDark, -4px -4px 8px $grayShadow;
+}
+.gray-secondary-out{
+    border: solid 5px $graySecondaryColor;
+    box-shadow: 4px 4px 8px $grayShadowDark, -4px -4px 8px $grayPrimaryColor;
+}
+.gray-secondary-in{
+    border: solid 5px $graySecondaryColor;
+    box-shadow: 4px 4px 8px $grayShadow, -4px -4px 8px $grayShadowDark;
+}
+.red-secondary-out{
+    border: solid 5px $graySecondaryColor;
     box-shadow: 4px 4px 8px $grayShadowDark, -4px -4px 8px $redShadowLight;
 }
-.red .circle.in{
+.red-secondary-in{
+    border: solid 5px $graySecondaryColor;
     box-shadow: 4px 4px 8px $redShadowLight, -4px -4px 8px $grayShadowDark;
 }
-.dark .circle.out,
-.dark-color .circle.out{
-    box-shadow: 4px 4px 8px $grayShadowDark, -4px -4px 8px $grayPrimaryColor;
-}
-.dark .circle.in,
-.dark-color .circle.in{    
-    box-shadow: 4px 4px 8px $grayShadow, -4px -4px 8px $grayShadowDark;
-}
-.dark-color .circle.in{
-    background-color: $redPrimaryColor;
-    box-shadow: 4px 4px 8px $grayShadow, -4px -4px 8px $grayShadowDark;
-}
-.dark-color .circle.in.up{
-    background-color: $redPrimaryColor;    
-    box-shadow: 4px 4px 8px $grayShadowDark, -4px -4px 8px $grayPrimaryColor;
-}
 
-/*Squares*/
-.gray-secondary{
-    background-color: $graySecondaryColor;
-
-}
-.square-out{
-        border: solid 5px $graySecondaryColor;
-    box-shadow: 4px 4px 8px $grayShadowDark, -4px -4px 8px $grayPrimaryColor;
-}
-.square-in{
-    box-shadow: 4px 4px 8px $grayShadow, -4px -4px 8px $grayShadowDark;
-}
 @media screen and (max-width: 800px){    
     .fourth h1{
         text-shadow: 3px 3px 6px $grayShadowDark, -3px -3px 6px $grayShadow;
