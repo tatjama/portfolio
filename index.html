@@ -45,35 +45,158 @@
     </head>
     <body>
         
-        <div class="container fourth color-gray-secondary">
-            <div class="mode-container">
-                <div class="dark">
-                    <div class="circle-out oval">
-                        <div class="circle-in oval">             
-                            <div id="mode" class="direction-row">                
-                                <button id = "light-mode" class="up black color-gray-secondary">light</button>
-                                <button id = "dark-mode" class = "down black color-gray-secondary" onclick = "changeMode()">dark</button>
+        <div class="container color-gray-secondary">
+                                          
+                                <button id = "light-mode"onclick="changeColor('yellow')"class="up black color-gray-secondary">light</button>
+                                <button  id = "dark-mode" class = "down black color-gray-secondary" >dark</button>
                                 <button id = "fancy-mode" class="up black color-gray-secondary">fancy</button>
+                           
+            <header class="text-gray-secondary-color text-gray-secondary-shadow">
+                <h1>Hello, my name is <span class="text-color-red">Tanja</span></h1>
+                <h1>I am Front end developer</h1>            
+                <h1>This is my portfolio</h1>                
+            </header>
+            <section class="portfolio">
+                <div id="portfolio-container" class="square-out-round gray-secondary-out">
+                    <div class="direction-row-between">
+                        <div class="circle-out gray-secondary-out">
+                            <div class="circle-in gray-secondary-in">
                             </div>
                         </div>
+                        <div class="circle-out gray-secondary-out">
+                            <div class="circle-in gray-secondary-in">
+                            </div>
+                        </div>
+
+                    </div>
+                    <h2 class="text-gray-secondary-color-darker">
+                        Let me introduce myself through my projects...
+                    </h2>
+                    <div  class="direction-row portfolio-cards ">
+                        <div class="portfolio-card first">
+                            <div  class="square-out gray-secondary-out">
+                                <div class="square-in gray-secondary-in">
+                                    <div >
+                                        <div>React projekat</div>
+                                        <div> Lorem...</div>
+                                        <br/>
+                                    </div>
+                                    <div class="square-out gray-secondary-out">
+                                        <div>React projekat</div>
+                                        <div> Lorem...</div>
+                                        
+                                    </div>
+
+            
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-card">
+                            <div  class="square-out gray-secondary-out">
+                                <div class="square-in gray-secondary-in">
+
+                                    <div class="square-out gray-secondary-in">                                        
+                                        <div class="direction-row-between">
+                                            <img src="./images/drama.png"/>
+                                            <h4 class="text-gray-secondary-shadow-dark" >
+                                                E-ticket
+                                            </h4>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="square-out gray-secondary-in text-gray-secondary-shadow-dark-in down-red">
+                                        <div class="text-gray-secondary-shadow-dark-in">CRUD App</div>
+                                        <p>JavaScript Vanilla</p>                                        
+                                        <p> Learn more...</p>
+                                    </div>
+
+                                    <div class="square-out gray-secondary-in">
+                                        <div class="circle-out gray-secondary-in color-red">
+                                            <img class="play" src = "./images/arrow-up.svg"/>|
+                                        </div>                                        
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-card">
+                            <div  class="square-out gray-secondary-out">
+                                <div class="square-in gray-secondary-in">
+
+                                    <div class="square-out gray-secondary-in">                                        
+                                        <div class="direction-row-between">
+                                            <img src="./images/drama.png"/>
+                                            <h4 class="text-gray-secondary-shadow-dark" >
+                                                E-ticket
+                                            </h4>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="square-out gray-secondary-out">
+                                        <div class="text-gray-secondary-shadow-dark">CRUD App</div>
+                                        <p>JavaScript Vanilla</p>                                        
+                                        <p> Learn more...</p>
+                                    </div>
+
+                                    <div class="square-out gray-secondary-out">
+                                        <div class="circle-out gray-secondary-out color-red">
+                                            <img class="play" src = "./images/arrow-up-white.svg"/>|
+                                        </div>                                        
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-card">
+                            <div  class="square-out gray-secondary-out">
+                                <div class="square-in gray-secondary-in">
+                                    <div class="square-out gray-secondary-in">
+                                        <img src="./images/drama.png"/>
+                                    </div>
+                                    <div class="square-out gray-secondary-out">
+                                        <div>React projekat</div>
+                                        <div> Lorem...</div>
+                                    </div>
+                                    <div class="square-out gray-secondary-in text-color-red">
+                                        <div>React projekat</div>
+                                        <div> Lorem...</div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-card last">
+                            <div  class="square-out gray-secondary-out">
+                                <div class="square-in gray-secondary-in">
+                                    <div class="square-out gray-secondary-out">
+                                        <div>React projekat</div>
+                                        <div> Lorem...</div>
+                                    </div>
+                                    <div class="square-out gray-secondary-out">
+                                        <div>React projekat</div>
+                                        <div> Lorem...</div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="direction-row-between">
+                        <div class="circle-out gray-secondary-out">
+                            <div class="circle-in gray-secondary-in">
+                            </div>
+                        </div>
+                        <div class="circle-out gray-secondary-out">
+                            <div class="circle-in gray-secondary-in">
+                            </div>
+                        </div>
+
                     </div>
                 </div>
-            </div>
-            <section class="text-gray-secondary-color text-gray-secondary-shadow">
-                <h1>Hello, my name is <span class="text-color-red">Tanja</span></h1>
-                <h1>I like create Web App...</h1>            
-                <h1>This is my portfolio</h1>                
+
             </section>
-            <div class="buttons">
-                <button class="up-light color-gray-secondary">Pritisni</button>
-                <button class="down-light color-gray-secondary">Pritisnuto</button>
-                <button class="up-red color-gray-secondary">Pritisni</button>
-                <button class="down-red color-gray-secondary">Pritisnuto</button>
-                <button class="up-black color-gray-secondary">Pritisni</button>
-                <button class="down-black color-gray-secondary">Pritisnuto</button>
-                <button class="up-dark color-gray-secondary">Pritisni</button>
-                <button class="down-dark color-gray-secondary">Pritisnuto</button>
-            </div>
+            
 
             
                 <div class="direction-row">
@@ -88,14 +211,25 @@
                     </div>
                 </div>
 
+                <div class="buttons">
+                    <button class="up-white color-gray-secondary">Pritisni</button>
+                    <button class="down-white color-gray-secondary">Pritisnuto</button>
+                    <button class="up-red color-gray-secondary">Pritisni</button>
+                    <button class="down-red color-gray-secondary">Pritisnuto</button>
+                    <button class="up-black color-gray-secondary">Pritisni</button>
+                    <button class="down-black color-gray-secondary">Pritisnuto</button>
+                    <button class="up-dark color-gray-secondary">Pritisni</button>
+                    <button class="down-dark color-gray-secondary">Pritisnuto</button>
+                </div>
+
                            <!--CIRCLES-->
                 <div class="direction-row">
 
                     <div class="circle-out gray-secondary-out">
                         <div class="circle-in gray-secondary-in">
-
                         </div>
                     </div>
+
                     <div class="circle-out gray-secondary-out">
                         
                     </div>
@@ -133,16 +267,7 @@
                     </div>
 
                 </div>
-                <div class = "direction-row">
-                    <button class="color-gray-secondary">Pritisni</button>
-                    <button class="color-gray-secondary">Pritisnuto</button>
-                    <button class="color-gray-secondary">Pritisni</button>
-                    <button class="color-gray-secondary">Pritisnuto</button>
-                    <button class="color-gray-secondary">Pritisni</button>
-                    <button class="color-gray-secondary">Pritisnuto</button>
-                    <button class="color-gray-secondary">Pritisni</button>
-                    <button class="color-gray-secondary">Pritisnuto</button>
-                </div>
+                
             </div>
         </div>
 
@@ -256,9 +381,25 @@
     </body>
     <script type="text/javascript">
         const changeColor = (color) => {
-           let elementArray = document.querySelectorAll(".red")
-           for( let i = 0; i < elementArray.length; i++){            
-            elementArray[i].setAttribute("class", color)
+            let elementArray = document.querySelectorAll("text-color-red")
+            for( let i = 0; i < elementArray.length; i++){            
+            elementArray[i].setAttribute("class", "text-color-" + color)
+           }
+           let elementArray1 = document.querySelectorAll(".up-red")
+           for( let i = 0; i < elementArray1.length; i++){            
+            elementArray1[i].setAttribute("class", "up-" + color)
+           }
+           let elementArray2 = document.querySelectorAll(".down-red")
+           for( let i = 0; i < elementArray2.length; i++){            
+            elementArray2[i].setAttribute("class", "down-" + color)
+           }
+           let elementArray3 = document.querySelectorAll(".color-red")
+           for( let i = 0; i < elementArray3.length; i++){            
+            elementArray3[i].setAttribute("class", "color-" + color)
+           }
+           let elementArray4 = document.querySelectorAll(".text-color-red")
+           for( let i = 0; i < elementArray4.length; i++){            
+            elementArray4[i].setAttribute("class", "text-color-" + color)
            }
             alert("change color")
         }
