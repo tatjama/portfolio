@@ -22,7 +22,40 @@
     }
     .circle-out{
         margin-left: 40px;
-    }        
+    }   
+    
+    .one:hover{       
+        box-shadow: 4px 4px 8px $grayShadow, -4px -4px 8px $grayShadowDark;
+        text-shadow: 2px 2px 4px $grayShadow, -2px -2px 4px $grayShadowDarker;
+        color: $grayShadowDark;
+        font-stretch: extra-condensed;
+        div{
+            text-shadow: 2px 2px 4px $grayShadow, -2px -2px 4px $grayShadowDarker;
+        }
+    }     
+    
+    .two:hover{       
+        box-shadow: 4px 4px 8px $grayShadow, -4px -4px 8px $grayShadowDark;
+        text-shadow: 2px 2px 4px $grayShadow, -2px -2px 4px $grayShadowDarker;
+        color: $grayShadowDark;
+        font-stretch: extra-condensed;
+        div{           
+            box-shadow: 4px 4px 8px $grayShadow, -4px -4px 8px $grayShadowDark;
+        }
+    }     
+}
+.active{
+    /*box-shadow: 4px 4px 8px $grayShadow, -4px -4px 8px $grayShadowDark;*/
+    text-shadow: 2px 2px 4px $grayShadow, -2px -2px 4px $grayShadowDarker;
+    color: $redPrimaryColor;
+    box-shadow: 4px 4px 8px $redShadowLight, -4px -4px 8px $grayShadowDark;
+        font-stretch: extra-condensed; 
+}
+.active.one div{
+    text-shadow: 2px 2px 4px $grayShadow, -2px -2px 4px $grayShadowDarker;
+}
+.active.two div{
+    box-shadow: 4px 4px 8px $grayShadow, -4px -4px 8px $grayShadowDark;
 }
 .first{
     .square-out, .square-in{

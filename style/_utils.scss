@@ -25,6 +25,9 @@ h2{
     font-size: 2em;
     margin: 10px 0px;
 }
+h4{
+    padding: 8px;
+}
 p{
     font-size: 0.9em;
 }
@@ -105,6 +108,7 @@ span{
 img{
     width: 50px;
     height: 50px;
+    border-radius: 10px;
 }
 @media screen and (max-width: 800px){
     .container{    
