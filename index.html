@@ -116,15 +116,16 @@
                                                 bta
                                             </h4>
                                         </div>
-                                    </div>                                
-                                    <div class="square-out gray-secondary-out one active">
-                                        <h4 class="text-gray-secondary-shadow-dark">Trip advisor</h4>
-                                        <p> - ReactJS</p>  
-                                        <p> - CSS</p>                                      
-                                        <p> Learn more...</p>
-                                    </div>
+                                    </div>                                                                
+                                        <div onclick="openProjectPage()" class="square-out gray-secondary-out one">
+                                        
+                                            <h4 class="text-gray-secondary-shadow-dark">Trip advisor</h4>
+                                            <p> - ReactJS</p>  
+                                            <p> - CSS</p>                                      
+                                            <p> Learn more...</p>                                        
+                                        </div>                                   
 
-                                    <div class="square-out gray-secondary-out two active">
+                                    <div class="square-out gray-secondary-out two ">
                                         <div class="circle-out gray-secondary-out color-red">
                                             <a href="https://business-travel-agency-react.vercel.app" target="_blank">
                                                 <img class="play" src = "./images/arrow-up.svg"/>
@@ -243,18 +244,18 @@
                 </div>
 
             </section>
-            <section class="project">
+            <section  class="project">                
                 <div  class="square-out gray-secondary-in">
                     <div class="direction-row-between">
                         <a href = "https://business-travel-agency-react.vercel.app" target = "_blank">
                             
                             <img class="circle-out gray-secondary-out " src="./images/travel-and-tourism.png" alt="suites"/>
                         </a>
-                        <h2 class="text-gray-secondary-shadow-dark">
+                        <h2 id="project-header" class="text-gray-secondary-shadow-dark">
                             Business travel agency
                         </h2>
                     </div>
-                    <div>
+                    <div id="project">
                         <h3>About:</h3>
                         <p>Business travel agency (bta) is application that allow users to see information, give feedback 
                             and see other users comments about accommodation, transport, local culture, food etc. in some city
@@ -368,7 +369,12 @@
                             </li>
                         </ol>
                     </div>
-                    <button class="up-dark color-gray-secondary">Close</button>
+                    <br/>
+                    <a href="#portfolio-container">
+                        <button onclick="closeProjectPage()" class="up-dark color-gray-secondary">                        
+                            Close                        
+                        </button>
+                </a>
                 </div>
             </section>
             
@@ -447,7 +453,7 @@
         </div>
 
         
-        <div class="container second color-gray-primary ">
+        <div class="container light-mode color-gray-primary ">
             <section class="text-gray-primary-color text-gray-primary-shadow ">
                 <h1>Hello, my name is <span class="text-color-green">Tanja</span></h1>
                 <h1>I'm Front end developer</h1>            
@@ -531,29 +537,9 @@
             </div>
         </div>
         
-        <div class="container third">
-            <h1>Hello, my name is <span>Tanja</span></h1>
-            <h1>I like create Web App...</h1>
-            <section>
-                <h1>Technics:</h1>                
-            </section>
-            <div class="buttons">
-                <button class="up">Pritisni</button>
-                <button class="down">Pritisnuto</button>
-            </div>
-        </div>
-        <div class="container first">
-            <h1>Hello, my name is <span>Tanja</span></h1>
-            <h1>I like create Web App...</h1>
-            <section>
-                <h1>Technics:</h1>                
-            </section>
-            <div class="buttons">
-                <button class="up">Pritisni</button>
-                <button class="down">Pritisnuto</button>
-            </div>
-        </div>
+       
     </body>
+    <script type = "text/javascript" src = "./js/index.js"></script>
     <script type="text/javascript">
         const changeColor = (color) => {
             let elementArray = document.querySelectorAll("text-color-red")

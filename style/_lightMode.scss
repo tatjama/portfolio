@@ -2,9 +2,12 @@
 /*LIGHT MODE*/
 
 
-.second span{
+.light-mode{
+    display: none;
+    span{
         text-shadow: 4px 4px 8px $grayShadowLight, -4px -4px 8px $grayShadow;
-    }   
+    }
+}    
 
 
 /*Button*/
@@ -81,12 +84,12 @@
 }
 
 @media screen and (max-width: 800px){    
-    .second h1{    
+    .light-mode h1{    
         text-shadow: 3px 3px 6px $grayShadow, -3px -3px 6px $grayShadowLight;    
     }
 }
 @media screen and (max-width: 630px){    
-    .second h1{    
+    .light-mode h1{    
         text-shadow: 2px 2px 4px $grayShadow, -2px -2px 4px $grayShadowLight;    
     }
 }
