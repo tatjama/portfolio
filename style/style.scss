@@ -17,9 +17,6 @@
 .portfolio-card{
     width: 20%;
     height: 100%;
-    .square-out{
-        width: 100%;
-    }
     .circle-out{
         margin-left: 40px;
     }   
@@ -77,3 +74,20 @@
     z-index: -4;
 }
 
+.project{
+    position: fixed;
+    top: 5%;
+    left: 10%;
+    width: 80%;
+    background-color: $graySecondaryColor;
+    div{
+        padding: 5%;
+    }
+    .circle-out{
+        width: 70px;
+        height: 70px;
+        &:hover{
+            box-shadow: 4px 4px 8px $grayShadow, -4px -4px 8px $grayShadowDark;
+        }
+    }
+}
