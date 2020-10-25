@@ -30,6 +30,11 @@ h4{
 }
 p{
     font-size: 0.9em;
+    padding: 3px 0px;
+}
+ul, ol{
+    padding: 20px;
+    font-size: 1.2rem;
 }
 button{
     width: 100px;
@@ -110,11 +115,14 @@ img{
     height: 50px;
     border-radius: 10px;
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width:1180px){
     .container{    
-        padding: 5% 5%;
+        padding: 4% 4%;
         width: 100%;
     }
+}
+@media screen and (max-width: 800px){
+    
     h1{    
         font-weight: bolder;
         font-size: 3em;

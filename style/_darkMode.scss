@@ -1,7 +1,8 @@
 /*DARK MODE*/
 
-.fourth span{   
-            text-shadow: 4px 4px 8px $grayShadow, -4px -4px 8px $grayShadowDark;    
+.dark-mode span{   
+            text-shadow: 4px 4px 8px $grayShadow, -4px -4px 8px $grayShadowDark;   
+            color: $redShadowLighter; 
             /*text-shadow: 1% 1% 2% $grayShadow, 1% 1% 2% $grayShadowDark;  */  
         }    
 
@@ -54,7 +55,7 @@
 
 /*Colors*/
 .color-red{
-    background-color: $redPrimaryColor;
+    background-color: $redShadowLighter;
 }
 .color-gray-secondary{
     background-color: $graySecondaryColor;
@@ -104,12 +105,12 @@
 }
 
 @media screen and (max-width: 800px){    
-    .fourth h1{
+    .dark-mode h1{
         text-shadow: 3px 3px 6px $grayShadowDark, -3px -3px 6px $grayShadow;
     }
 }
 @media screen and (max-width: 630px){    
-    .fourth h1{
+    .dark-mode h1{
         color: $graySecondaryColor;
         text-shadow: 2px 2px 4px $grayShadowDark, -2px -2px 4px $grayShadow;
     }
