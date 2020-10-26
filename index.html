@@ -117,7 +117,7 @@
                                             </h4>
                                         </div>
                                     </div>                                                                
-                                        <div onclick="openProjectPage()" class="square-out gray-secondary-out one">
+                                        <div onclick="openProjectPage(bta)" class="square-out gray-secondary-out one">
                                         <a href="#project-header">
                                             <h4 class="text-gray-secondary-shadow-dark">Trip advisor</h4>
                                             <p> - ReactJS</p>  
@@ -150,8 +150,8 @@
                                         </div>
                                     </div>
                                 
-                                    <div class="square-out gray-secondary-out one">
-                                        <a href="#">
+                                    <div onclick="openProjectPage(eTickets)" class="square-out gray-secondary-out one">
+                                        <a href="#project-header">
                                             <h4 class="text-gray-secondary-shadow-dark">CRUD App</h4>
                                             <p> - JavaScript </p>    
                                             <p> - CSS</p>                                    
@@ -248,137 +248,7 @@
 
             </section>
             <section  class="project">                
-                <div  class="square-out gray-secondary-in">
-                    <div class="direction-row-between">
-                        <a href = "https://business-travel-agency-react.vercel.app" target = "_blank">
-                            
-                            <img class="circle-out gray-secondary-out " src="./images/travel-and-tourism.png" alt="suites"/>
-                        </a>
-                        <h2 id="project-header" class="text-gray-secondary-shadow-dark">
-                            Business travel agency
-                        </h2>
-                    </div>
-                    <div id="project">
-                        <h3>About:</h3>
-                        <p>Business travel agency (bta) is application that allow users to see information, give feedback 
-                            and see other users comments about accommodation, transport, local culture, food etc. in some city
-                        </p>
-                        <h3>Technics:</h3>
-                        <p>React.js, JavaScript, HTML, CSS, JSX, sessionStorage, localStorage</p>                            
-                        <h3>Credentials:</h3>
-                        <p>App. starts with signIn page(only registered users can use App). To become register user, please go to 
-                            signUp page and fill up form.
-                            <br/>
-                             You can, also,  use default user or admin credentials for demo purpose
-                             <br/> 
-                            <span>USER:</span> email: user@user.com, password: UserUser1, <br/>
-                            <span>ADMIN:</span> email: admin@admin.com, password: AdminAdmin1 
-                        </p>
-                        <h3>Avatars:</h3>
-                        <ol>
-                            <li> User 
-                                <br/>
-                                Default value: email: user@user.com, password: UserUser1
-                                <ul>Can do:
-                                    <li>sign in,</li>
-                                    <li>sign up,</li>
-                                    <li>see information about hotels, restaurants, attractions, airports, providers(airplane, train, bus, rent a car)</li>
-                                    <li>see other users comments,</li>
-                                    <li>give feedback about hotels, restaurants, attractions, providers,</li>
-                                    <li>see own comments,</li>
-                                    <li>delete own comment</li>
-                                </ul>
-                            </li>
-                            <li> Admin
-                                <br/>
-                                Default value: email: admin@admin.com, password: AdminAdmin1
-                                <ul>
-                                    Can do:
-                                    <li>all that user can do,</li>
-                                    <li>delete users comment ,</li>
-                                    <li>add new provider,</li>
-                                    <li>edit provider</li>
-                                </ul>
-                            </li>
-                        </ol>
-                        <h3>Descriptions - App pages:</h3>
-                        <ol>
-                            <li>SignUp Page 
-                                <br>Validation on signUp page will not allow you to submit if information are not valid... 
-                                Valid information * email -> something@something.xy * password -> Number, letter, Capital letter >=8 
-                                Submitting validate form will redirect you to SignIn page
-                            </li>
-                            <li>SignIn Page 
-                                <br/>Information have to bi valid to submit Submitting validate signIn form will redirect you to App
-                                <br/>
-                                Notice: if you are not logIn you are not allow to go to App pages, and if you are logIn you have to 
-                                Sign out to visit SignIn and SignUp pages.
-                            </li>
-                            <li>
-                                Home Page (user & admin) 
-                                <br/>Select country, and than city from drop-down menu. Redirect to desire city page with information.
-                            </li>
-                            <li>  
-                                Life...(user and admin) 
-                                <br/>Press button "SHOW INFORMATION ABOUT CITY" => Menu:
-                                <ul>
-                                    <li>
-                                        Restaurants 
-                                        <ul>
-                                            <li> - information (name, contact, info, description, image, rating)</li>
-                                            <li> - see comments (user comments from API and App)</li>
-                                            <li> - leave a comment (user to App)</li>
-                                            <li> - delete a comment (admin - user comment from App)</li>
-                                        </ul>  
-                                    </li>
-                                    <li>
-                                        Hotels 
-                                        <ul>
-                                            <li> - information (name, contact, info, description, image, rating)</li>
-                                            <li> - see comments (user comments from API and App)</li>
-                                            <li> - leave a comment (user to App)</li>
-                                            <li> - delete a comment (admin - user comment from App)</li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        Attractions 
-                                        <ul>
-                                            <li> - information (name, contact, info, description, image, rating)</li>
-                                            <li> - see comments (user comments from API and App)</li>
-                                            <li> - leave a comment (user to App)</li>
-                                            <li> - delete a comment (admin - user comment from App)</li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        Airports - information (name, code, info)
-                                    </li>
-                                    <li>
-                                        Select form => change city</li>                                    
-                                </ul>
-                            </li> 
-                            <li>
-                                Feedback (only user)
-                                <ul>
-                                    <li>My comments - See all your feedbacks- Delete your own comment</li>
-                                    <li>Provider List - Providers - list - details - Leave comment (user to App)</li>
-                                </ul> 
-                            </li>
-                            <li>
-                                Providers (only admin)
-                                <ul>
-                                    <li>New Provider Form - add new provider</li>
-                                    <li>Provider List - Providers - list - details - Edit - change information about provider</li>
-                                </ul>
-                            </li>
-                        </ol>
-                    </div>
-                    <br/>
-                    <a href="#portfolio-container">
-                        <button onclick="closeProjectPage()" class="up-dark color-gray-secondary">                        
-                            Close                        
-                        </button>
-                </a>
-                </div>
+                
             </section>
             
 
