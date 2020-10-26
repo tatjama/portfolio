@@ -5,6 +5,50 @@ const openProjectPage = (project) => {
 const closeProjectPage = () => {
     document.querySelector('.project').style.display = "none";
 }
+const fullfun = `
+<div  class="square-out gray-secondary-in">
+                    <div class="direction-row-between">
+                        <a href="https://privatniboravak.com" target = "_blank">
+                            
+                            <img class="circle-out gray-secondary-out " src="./images/fullfun.webp" alt="rock, paper, scissors"/>
+                        </a>
+                        <h2 id="project-header" class="text-gray-secondary-shadow-dark">
+                            Full Fun
+                        </h2>
+                    </div>
+                    <div id="project">
+                        <h3>About:</h3>
+                        <p> Full Fun is a presentation website for extended day care for elementary school students
+                        </p>
+                        <h3>Technics:</h3>
+                        <p>SEO, JavaScript, HTML, CSS, PHP.</p>                            
+                        
+                        
+                        <h3>Tasks:</h3>
+                        <ol>
+                            <li>Responsive design</li>
+                            <li>SEO 
+                                <br/>The search engine optimization gave great results. Four months after the setup, the site came out on top for keywords
+                            </li>
+                            <li>Hosting                                                             
+                            </li>
+                            <li>E-mail server                              
+                            </li>
+                            <li> DNS</li>
+                               
+                             <li>Copywriting</li>
+                        </ol>
+                        Thank you for reading!
+                        <br/>Tanja
+                    </div>
+                    <br/>
+                    <a href="#portfolio-container">
+                        <button onclick="closeProjectPage()" class="up-dark color-gray-secondary">                        
+                            Close                        
+                        </button>
+                </a>
+                </div>
+`
 const rockPaperScissors = `
 <div  class="square-out gray-secondary-in">
 <div class="direction-row-between">
