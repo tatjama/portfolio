@@ -5,6 +5,150 @@ const openProjectPage = (project) => {
 const closeProjectPage = () => {
     document.querySelector('.project').style.display = "none";
 }
+const rockPaperScissors = `
+<div  class="square-out gray-secondary-in">
+<div class="direction-row-between">
+    <a href="https://tatjama.github.io/fem-rock-paper-scissors-master/" target = "_blank">
+        
+        <img class="circle-out gray-secondary-out " src="./images/rock.png" alt="rock, paper, scissors"/>
+    </a>
+    <h2 id="project-header" class="text-gray-secondary-shadow-dark">
+        Rock-paper-scissors
+    </h2>
+</div>
+<div id="project">
+    <h3>About:</h3>
+    <p> Rock-paper-scissors is advanced challenge game by 
+        <a href="https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH" target="_blank">
+            Frontend Mentor
+        </a>. 
+         <br/>
+         Challenge is to build out this Rock, Paper, Scissors game and get it looking as close to the 
+         design as possible. We can use any tools we like to help us complete the challenge.
+    </p>
+    <h3>Technics:</h3>
+    <p> JavaScript, HTML, CSS, Session for keep score.</p>                            
+    
+    <h3>Avatar:</h3>                        
+         Users should be able to:                               
+            <ul>                                   
+                <li>View the optimal layout for the game depending on their device's screen size,</li>
+                <li>Play Rock, Paper, Scissors against the computer,</li>
+                <li>Maintain the state of the score after refreshing the browser (optional),</li>                                    
+                <li>Bonus: Play Rock, Paper, Scissors, Lizard, Spock against the computer (optional)</li>
+            </ul>  
+    <h3>Rules:</h3>
+    If the player wins, they gain 1 point. If the computer wins, the player loses one point.
+     <ul>
+         <li>
+            Original
+            <ul>
+                <li>Paper beats Rock</li>
+                <li>Rock beats Scissors</li>
+                <li>Scissors beats Paper</li>
+            </ul>
+         </li>
+         <li>
+             Bonus
+             <ul>
+                 <li>Scissors beats Paper</li>
+                 <li>Paper beats Rock</li>
+                 <li>Rock beats Lizard</li>
+                 <li>Lizard beats Spock</li>
+                 <li>Spock beats Scissors</li>
+                 <li>Scissors beats Lizard</li>
+                 <li>Paper beats Spock</li>
+                 <li>Rock beats Scissors</li>
+                 <li>Lizard beats Paper</li>
+                 <li>Spock beats Rock </li>
+             </ul>
+         </li>                             
+     </ul>   
+
+    <h3>Descriptions - Challenge:</h3>
+    <ol>
+        <li>Layout
+            <ul>The designs were created to the following widths:
+                <li>
+                    Mobile: 375px
+                </li>
+                <li> Desktop: 1366px
+                </li>
+            </ul>                                
+        </li>
+
+        <li>Colors, fonts etc get from the Frontend Mentor style file                                
+        </li>
+        <li>Design
+            <br/>
+            Task is to build out the project to the given designs.
+            We can either choose the original designs for the simpler version or the bonus designs for the harder
+             version, both mobile and desktop . 
+            <br/>
+            The designs are in JPG static format. This will mean that we need to use our best judgment for styles
+             such as font-size, padding and margin. This should show how train is our eye to perceive differences in 
+             spacings and sizes. 
+             <h4>Example designs:</h4>
+             <ul>
+                 <li>Desktop design
+                    <div class="direction-row">
+                        <figure>
+                            <img src="./images/desktop-rules-modal-bonus.jpg">
+                            <figcaption>Rules - bonus</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="./images/desktop-step-1-bonus.jpg">
+                            <figcaption>Start - bonus</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="./images/desktop-rules-modal.jpg">
+                            <figcaption>Rules</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/desktop-step-1.jpg">
+                            <figcaption>Start</figcaption>
+                        </figure>
+                    </div>
+
+                 </li>
+                 <li>Mobile design
+                    <div class="direction-row">
+                        <figure>
+                            <img src="./images/mobile-rules-modal-bonus.jpg">
+                            <figcaption>Rules - bonus</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="./images/mobile-step-1-bonus.jpg">
+                            <figcaption>Start - bonus</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="./images/mobile-rules-modal.jpg">
+                            <figcaption>Rules</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/mobile-step-1.jpg">
+                            <figcaption>Start</figcaption>
+                        </figure>
+                    </div>
+
+                 </li>
+             </ul>
+             
+            
+        </li>
+      
+    </ol>
+    Thank you for reading!
+    <br/>Tanja
+</div>
+<br/>
+<a href="#portfolio-container">
+    <button onclick="closeProjectPage()" class="up-dark color-gray-secondary">                        
+        Close                        
+    </button>
+</a>
+</div>
+`
 const eTickets = `
 <div  class="square-out gray-secondary-in">
                     <div class="direction-row-between">
