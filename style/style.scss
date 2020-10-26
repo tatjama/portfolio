@@ -82,11 +82,11 @@
 .project{
     display: none;
     position: absolute;
-    top: 5%;
-    left: 10%;
-    width: 80%;
+    top: 0%;
+    left: 0%;
+    width: 100%;
     background-color: $graySecondaryColor;
-    padding: 5px;
+    padding: 15% 10%;
     div{
         padding: 5%;
     }
@@ -108,29 +108,5 @@
     }
     button:hover{
         background-color: $redShadowLighter;
-    }
-}
-#project{
-    height:1000px;
-    overflow-y: scroll;
-    
-}
-::-webkit-scrollbar{
-    width:20px;
-}
-::-webkit-scrollbar-track{
-    box-shadow: inset 0 0 5px $grayShadowDarker;
-    background-color: $graySecondaryColor;
-    padding: 0px 2px;
-}
-::-webkit-scrollbar-button{
-    background-color: $grayShadowDark;
-}
-::-webkit-scrollbar-thumb{
-    background: $redShadowLighter;
-    border-radius: 10px;
-    padding: 3px;
-    &:hover{
-        background: $redShadowLight;
     }
 }
