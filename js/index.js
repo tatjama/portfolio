@@ -10,7 +10,7 @@ const fullfun = `
                     <div class="direction-row-between">
                         <a href="https://privatniboravak.com" target = "_blank">
                             
-                            <img class="circle-out gray-secondary-out " src="./images/fullfun.webp" alt="rock, paper, scissors"/>
+                            <img class="circle-out gray-secondary-out " src="./images/fullfun.png" alt="fullfun logo"/>
                         </a>
                         <h2 id="project-header" class="text-gray-secondary-shadow-dark">
                             Full Fun
@@ -25,17 +25,18 @@ const fullfun = `
                         
                         
                         <h3>Tasks:</h3>
-                        <ol>
-                            <li>Responsive design</li>
+                        <ol>                            
                             <li>SEO 
                                 <br/>The search engine optimization gave great results. Four months after the setup, the site came out on top for keywords
                             </li>
+                            <li>Facebook pixel</li>
+                            <li>Google ads</li>
                             <li>Hosting                                                             
                             </li>
                             <li>E-mail server                              
                             </li>
                             <li> DNS</li>
-                               
+                            <li>Responsive design</li>  
                              <li>Copywriting</li>
                         </ol>
                         Thank you for reading!

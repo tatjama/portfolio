@@ -111,6 +111,9 @@
             box-shadow: 4px 4px 8px $grayShadow, -4px -4px 8px $grayShadowDark;
         }
     }
+    button{
+        width: 100%;
+    }
     button:hover{
         background-color: $redShadowLighter;
     }
