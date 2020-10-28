@@ -147,4 +147,14 @@
             width: 25px;
         }
     }
+    .contact-target:hover{
+        color: $redShadowLighter;
+        div{
+            
+        box-shadow: 4px 4px 8px $grayShadowDark, -4px -4px 8px $redShadowLighter;
+        img{
+            box-shadow: 4px 4px 8px $redShadowLighter, -4px -4px 8px $grayShadowDark;
+        }
+        }
+    }
 }

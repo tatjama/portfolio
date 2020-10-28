@@ -97,11 +97,11 @@
 }
 .red-secondary-out{
     border: solid 5px $graySecondaryColor;
-    box-shadow: 4px 4px 8px $grayShadowDark, -4px -4px 8px $redShadowLight;
+    box-shadow: 4px 4px 8px $grayShadowDark, -4px -4px 8px $redShadowLighter;
 }
 .red-secondary-in{
     border: solid 5px $graySecondaryColor;
-    box-shadow: 4px 4px 8px $redShadowLight, -4px -4px 8px $grayShadowDark;
+    box-shadow: 4px 4px 8px $redShadowLighter, -4px -4px 8px $grayShadowDark;
 }
 
 @media screen and (max-width: 800px){    
