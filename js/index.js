@@ -5,6 +5,76 @@ const openProjectPage = (project) => {
 const closeProjectPage = () => {
     document.querySelector('.project').style.display = "none";
 }
+const dm = `
+<div  class="square-out gray-secondary-in">
+<div class="direction-row-between">
+    <a href="#" target = "_blank">
+        
+        <img class="circle-out gray-secondary-out " src="./images/social-media-marketing.png" alt="social media"/>
+    </a>
+    <h2 id="project-header" class="text-gray-secondary-shadow-dark">
+        Digital marketing, graphic design
+    </h2>
+</div>
+<div id="project">
+    <div class="direction-row">                        
+        <div>
+            <h3>Digital marketing:</h3>
+            <ul>
+                <li>Sales funnel</li>
+                <li>FB Pixel</li> 
+                <li>Copywriting</li>
+                <li>Google tag</li>
+                <li>Google analytics</li>
+                <li>Google ads</li>
+                <li>LinkedIn ads</li>
+                <li>FB ads</li>
+                <li>IG ads</li>
+                <li>E-mail marketing</li>
+                <li>SEO</li>
+            </ul>                            
+        </div>
+        <div>
+            <h3>Web design</h3>
+            <ul>
+                <li>UX</li>
+                <li>UI</li>
+                <li>Design web pages</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="direction-row">
+        <div>
+            <h3>Graphic design:</h3>
+            <ul>
+                <li>Logo design</li>
+                <li>Banners design</li>
+                <li>Advertising</li>
+                <li>Promotional material</li>
+            </ul>   
+        </div>
+        <div>
+            <h3>Visual design</h3>
+            <ul>
+                <li>Typography</li>
+                <li>Colors</li>
+                <li>Photo editing</li>
+                <li>Video editing</li>
+            </ul>                            
+        </div>
+    </div> 
+    Thank you for reading!
+    <br/>Tanja
+</div>
+<br/>
+<a href="#portfolio-container">
+    <button onclick="closeProjectPage()" class="up-dark color-gray-secondary">                        
+        Close                        
+    </button>
+</a>
+</div> 
+`
 const fullfun = `
 <div  class="square-out gray-secondary-in">
                     <div class="direction-row-between">
@@ -55,7 +125,7 @@ const rockPaperScissors = `
 <div class="direction-row-between">
     <a href="https://tatjama.github.io/fem-rock-paper-scissors-master/" target = "_blank">
         
-        <img class="circle-out gray-secondary-out " src="./images/rock.png" alt="rock, paper, scissors"/>
+        <img class="circle-out gray-secondary-out " src="./images/rock (1).png" alt="rock, paper, scissors"/>
     </a>
     <h2 id="project-header" class="text-gray-secondary-shadow-dark">
         Rock-paper-scissors
