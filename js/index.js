@@ -5,6 +5,9 @@ const openProjectPage = (project) => {
 const closeProjectPage = () => {
     document.querySelector('.project').style.display = "none";
 }
+const showEMail = () => {
+    document.querySelector('#e-mail').style.visibility = "visible";
+}
 const dm = `
 <div  class="square-out gray-secondary-in">
 <div class="direction-row-between">
