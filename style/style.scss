@@ -168,3 +168,45 @@
         padding: 2px;        
     }
 }
+
+@media screen and (max-width: 1000px){
+    .direction-row.portfolio-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 20px 10px;
+    }
+    .portfolio-card{
+        max-width: 100%;
+        width: 100%;  
+        margin-bottom: 20px;      
+        .square-out, .square-in{
+            border-radius: 30px;
+        }        
+        .card,
+        .one,
+        .two{
+            padding: 20px;
+        }
+        .one{
+            display: flex;
+            justify-content: center;
+        }
+        .two div{
+            margin: auto;
+        }
+    }
+    .contact{
+        .direction-row{
+            flex-wrap: wrap;
+            h4{
+                width: 100%;
+                padding: 30px;
+            }
+        }
+    }
+    
+}
+@media screen and (max-width: 630px){
+    
+}

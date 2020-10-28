@@ -8,6 +8,8 @@ body, html{
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     scroll-behavior: smooth;
+    overflow-x: hidden;
+
 }
 
 ::-webkit-scrollbar{
@@ -42,19 +44,19 @@ a{
 }
 h1{    
     font-weight: bolder;
-    font-size: 5em;
+    font-size: 5rem;
     margin: 10px 0px;
 }
 h2{
     font-weight: bolder;
-    font-size: 2em;
+    font-size: 2rem;
     margin: 10px 0px;
 }
 h4{
     padding: 8px 0px 8px 10px;
 }
 p{
-    font-size: 0.9em;
+    font-size: 0.9rem;
     padding: 3px 0px;
 }
 ul, ol{
@@ -145,12 +147,15 @@ img{
         padding: 4% 4%;
         width: 100%;
     }
+    h1{ 
+        font-size: 4rem;
+    }
+    
 }
 @media screen and (max-width: 800px){
     
     h1{    
-        font-weight: bolder;
-        font-size: 3em;
+        font-size: 3rem;
     }
     button{
         width: 80px;
@@ -165,7 +170,7 @@ img{
     }
     h1{    
         font-weight: bolder;
-        font-size: 3em;
+        font-size: 3rem;
     }
     button{
         width: 70px;
@@ -182,7 +187,7 @@ img{
     }
     h1{    
         font-weight: bolder;
-        font-size: 2em;
+        font-size: 2rem;
     }
 
 }
