@@ -2,7 +2,29 @@
 @import "./utils";
 @import './_darkMode';
 @import "./lightMode";
-
+nav{
+    .direction-row{
+        justify-content: flex-end;
+        .contact-target{
+            margin-left: 40px;
+            img{
+                border-radius: 50%;
+                padding: 3px;
+            }
+            
+        }
+        #active{
+            color: $redShadowLighter;
+            div{
+                
+            box-shadow: 4px 4px 8px $grayShadowDark, -4px -4px 8px $redShadowLighter;
+            img{
+                box-shadow: 4px 4px 8px $redShadowLighter, -4px -4px 8px $grayShadowDark;
+            }
+            }
+        }
+    }
+}
 #portfolio-container{
     width: 100%;
     height: 100%;
