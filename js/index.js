@@ -76,7 +76,12 @@ const dm = `
         Close                        
     </button>
 </a>
-
+<a id = "go-to-top" href = "#">
+    <img src = "../images/arrow-up.png"/>
+</a>
+<a id = "close" onclick="closeProjectPage()" href = "#portfolio-container">
+    <img src = "../images/close-black.png"/>
+</a>
 </div> 
 <div class ="project-footer"></div>
 `
@@ -122,7 +127,13 @@ const fullfun = `
                         <button onclick="closeProjectPage()" class="up-dark color-gray-secondary">                        
                             Close                        
                         </button>
-                </a>
+                    </a>
+                    <a id = "go-to-top" href = "#">
+                        <img src = "../images/arrow-up.png"/>
+                    </a>
+                    <a id = "close" onclick="closeProjectPage()" href = "#portfolio-container">
+                        <img src = "../images/close-black.png"/>
+                    </a>
                 </div>
                 <div class ="project-footer"></div>      
 
@@ -264,11 +275,17 @@ const rockPaperScissors = `
     <br/>Tanja
 </div>
 <br/>
-<a href="#portfolio-container">
-    <button onclick="closeProjectPage()" class="up-dark color-gray-secondary">                        
-        Close                        
-    </button>
-</a>
+    <a href="#portfolio-container">
+        <button onclick="closeProjectPage()" class="up-dark color-gray-secondary">                        
+            Close                        
+        </button>
+    </a>
+    <a id = "go-to-top" href = "#">
+        <img src = "../images/arrow-up.png"/>
+    </a>
+    <a id = "close" onclick="closeProjectPage()" href = "#portfolio-container">
+        <img src = "../images/close-black.png"/>
+    </a>
 </div>
 `
 const eTickets = `
@@ -418,7 +435,13 @@ const eTickets = `
                         <button onclick="closeProjectPage()" class="up-dark color-gray-secondary">                        
                             Close                        
                         </button>
-                </a>
+                    </a>
+                    <a id = "go-to-top" href = "#">
+                        <img src = "../images/arrow-up.png"/>
+                    </a>
+                    <a id = "close" onclick="closeProjectPage()" href = "#portfolio-container">
+                        <img src = "../images/close-black.png"/>
+                    </a>
                 </div>
 `
 const bta = `
@@ -551,6 +574,12 @@ const bta = `
                         <button onclick="closeProjectPage()" class="up-dark color-gray-secondary">                        
                             Close                        
                         </button>
+                </a>
+                <a id = "go-to-top" href = "#">
+                    <img src = "../images/arrow-up.png"/>
+                </a>
+                <a id = "close" onclick="closeProjectPage()" href = "#portfolio-container">
+                    <img src = "../images/close-black.png"/>
                 </a>
                 </div>
 `

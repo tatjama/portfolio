@@ -44,7 +44,10 @@ nav{
     }   
     a{
         color: $grayShadowDarker;
-    }  
+    } 
+    .large{
+        padding: 5px;
+    } 
     .square-out{
         margin-bottom: 5px;
     }
@@ -199,8 +202,9 @@ nav{
     }
 }
 .credentials{
-    padding: 30px;
-    font-size: xx-small;
+    padding: 50px 30px;
+    font-size: x-small;
+    
     div{
         display: flex;
         flex-direction: row;

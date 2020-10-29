@@ -142,6 +142,26 @@ img{
     height: 50px;
     border-radius: 10px;
 }
+#go-to-top{
+    position: fixed;
+    right: 20px;
+    bottom: 40%;
+    padding: 5px;
+    img{
+        width: 40px;
+        height: 40px;
+    }
+}
+#close{
+    position: fixed;
+    right: 20px;
+    top: 40%;
+    padding: 5px;
+    img{
+        width: 40px;
+        height: 40px;
+    }
+}
 @media screen and (max-width:1180px){
     .container{    
         padding: 4% 4%;
@@ -165,6 +185,19 @@ img{
         height: 40px;
         font-size: medium;
     }
+    #go-to-top{
+        img{
+            width: 30px;
+            height: 30px;
+        }
+    }
+    #close{
+        img{
+            width: 30px;
+            height: 30px;
+        }
+    }
+    
 }
 @media screen and (max-width: 630px){
     .container{    
