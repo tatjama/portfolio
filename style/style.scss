@@ -90,6 +90,12 @@ nav{
 .active.two div{
     box-shadow: 4px 4px 8px $grayShadow, -4px -4px 8px $grayShadowDark;
 }
+.card{
+    margin-bottom: 25px;
+    h4{
+        width: 95px;
+    }
+}
 .first{
     .square-out, .square-in{
         border-bottom-left-radius: 30px;
@@ -98,9 +104,6 @@ nav{
     .card{
         margin-bottom: 5px;
     }
-}
-.card h4{
-    max-width: 95px;
 }
 .last{
     .square-out, .square-in{
@@ -214,7 +217,7 @@ nav{
         }
     }
 }
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1040px){
     .direction-row.portfolio-cards{
         display: flex;
         flex-direction: column;
@@ -230,18 +233,28 @@ nav{
         }   
         .square-out, .square-in{
             border-radius: 30px;
-        }        
-        .card,
+        }      
         .one,
         .two{
-            padding: 20px;
-        }
-        .one{
-            display: flex;
-            justify-content: center;
-        }
-        .two div{
-            margin: auto;
+            padding: 15px;
+        }  
+        .card{
+            width: 70%;
+        }      
+        .two{
+            width: 30%;
+            div{
+                margin: auto;
+            } 
+        }        
+        .square-in{            
+            .square-out{
+                display: flex;
+            flex-direction: row;
+            .one{
+                display: none;
+            }
+            }            
         }
     }
     .project{
@@ -269,4 +282,28 @@ nav{
     .project-footer{
         height: 2000px;
     }
+    .credentials{
+        .direction-row{
+            flex-direction: column;
+        }
+    }
+    
+}
+@media screen and (max-width: 500px){
+    .portfolio-card{
+        .two{
+            padding: 10px;
+            margin-bottom: 0px;
+            margin-top: 10px;
+        }
+    }
+    
+}
+@media screen and (max-width: 420px){
+    .portfolio-card{
+        .two{
+            padding: 2px;
+        }
+    }
+    
 }
