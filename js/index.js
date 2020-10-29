@@ -20,7 +20,7 @@ const dm = `
     </h2>
 </div>
 <div id="project">
-    <div class="direction-row">                        
+    <div class="direction-row-between">                        
         <div>
             <h3>Digital marketing:</h3>
             <ul>
@@ -47,7 +47,7 @@ const dm = `
         </div>
     </div>
     
-    <div class="direction-row">
+    <div class="direction-row-between">
         <div>
             <h3>Graphic design:</h3>
             <ul>
@@ -76,7 +76,9 @@ const dm = `
         Close                        
     </button>
 </a>
+
 </div> 
+<div class ="project-footer"></div>
 `
 const fullfun = `
 <div  class="square-out gray-secondary-in">
@@ -122,6 +124,8 @@ const fullfun = `
                         </button>
                 </a>
                 </div>
+                <div class ="project-footer"></div>      
+
 `
 const rockPaperScissors = `
 <div  class="square-out gray-secondary-in">

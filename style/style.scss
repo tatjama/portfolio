@@ -207,6 +207,19 @@
             margin: auto;
         }
     }
+    .project{
+        .direction-row-between{
+            flex-direction: column;
+            h2{
+                padding: 20px;
+            }
+        }
+    }
+    #project{
+        .direction-row{
+            flex-direction: column;
+        }
+    }
     .contact{
         .direction-row{
             flex-wrap: wrap;
@@ -216,8 +229,7 @@
             }
         }
     }
-    
-}
-@media screen and (max-width: 630px){
-    
+    .project-footer{
+        height: 2000px;
+    }
 }
