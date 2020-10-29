@@ -23,7 +23,9 @@
     a{
         color: $grayShadowDarker;
     }  
-
+    .square-out{
+        margin-bottom: 5px;
+    }
     .one:hover{       
         box-shadow: 4px 4px 8px $grayShadow, -4px -4px 8px $grayShadowDark;
         text-shadow: 2px 2px 4px $grayShadow, -2px -2px 4px $grayShadowDarker;
@@ -68,6 +70,9 @@
         border-bottom-left-radius: 30px;
         border-top-left-radius: 30px;
     }
+    .card{
+        margin-bottom: 5px;
+    }
 }
 .card h4{
     max-width: 95px;
@@ -76,6 +81,9 @@
     .square-out, .square-in{
         border-bottom-right-radius: 30px;
         border-top-right-radius: 30px;
+    }
+    .card{
+        margin-bottom: 5px;
     }
 }
 .play{
@@ -179,7 +187,10 @@
     .portfolio-card{
         max-width: 100%;
         width: 100%;  
-        margin-bottom: 20px;      
+        margin-bottom: 20px;   
+        .square-out{
+            margin-bottom: 5px;
+        }   
         .square-out, .square-in{
             border-radius: 30px;
         }        
