@@ -399,7 +399,6 @@ const eTickets = `
                                     <li>Press button ENTRY</li>
                                 </ul>      
                                 Congratulation!!! You added new performance on stock, and now you can sell it.
-
                             </li>
                             <li>SignUp Page 
                                 <br>Validation on signUp page will not allow you to submit if information are not valid... 
