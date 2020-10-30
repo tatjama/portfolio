@@ -11,8 +11,7 @@ const showEMail = () => {
 const dm = `
 <div  class="square-out gray-secondary-in">
 <div class="direction-row-between">
-    <a href="#" target = "_blank">
-        
+    <a href="#" target = "_blank">        
         <img class="circle-out gray-secondary-out " src="./images/social-media-marketing.png" alt="social media"/>
     </a>
     <h2 id="project-header" class="text-gray-secondary-shadow-dark">
@@ -79,10 +78,10 @@ const dm = `
 </div> 
 <div class = "side-menu">
                     <a onclick="closeProjectPage()" href = "#portfolio-container">
-                        <img src = "../images/cancel.png" />
+                        <img src = "../images/cancel – kopija.png">
                     </a>
                     <a href = "#">
-                        <img src = "../images/up-arrow.png"/>
+                        <img src = "../images/up-arrow – kopija.png "/>
                     </a>        
                 </div>
 <div class ="project-footer"></div>
@@ -134,13 +133,13 @@ const fullfun = `
                 </div>
                 <div class = "side-menu">
                     <a onclick="closeProjectPage()" href = "#portfolio-container">
-                        <img src = "../images/cancel.png" />
+                        <img src = "../images/cancel – kopija.png" />
                     </a>
                     <a id = "go-to-site" target = "_blank" href="https://privatniboravak.com/">
-                        <img src = "../images/up-arrow.png"/>
+                        <img src = "../images/up-arrow – kopija.png" alt ="arrow"/>
                     </a>
                     <a href = "#">
-                        <img src = "../images/up-arrow.png"/>
+                        <img src = "../images/up-arrow – kopija.png" alt ="arrow"/>
                     </a>        
                 </div>
                 <div class ="project-footer"></div>      
