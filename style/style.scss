@@ -1,5 +1,6 @@
 @import "./variables"; 
 @import "./utils";
+@import "./text";
 @import './_darkMode';
 @import "./lightMode";
 nav{
@@ -225,8 +226,8 @@ nav{
     }
 }
 .credentials{
-    padding: 50px 30px;
-    font-size: x-small;
+    padding: 50px 10px;
+    font-size: 12px;
     
     div{
         display: flex;

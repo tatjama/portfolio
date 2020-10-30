@@ -42,23 +42,7 @@ a{
     text-decoration: none;
     display: block;
 }
-h1{    
-    font-weight: bolder;
-    font-size: 5rem;
-    margin: 10px 0px;
-}
-h2{
-    font-weight: bolder;
-    font-size: 2rem;
-    margin: 10px 0px;
-}
-h4{
-    padding: 8px 0px 8px 10px;
-}
-p{
-    font-size: 0.9rem;
-    padding: 3px 0px;
-}
+
 ul, ol{
     padding: 20px;
     font-size: 1.2rem;
@@ -148,57 +132,29 @@ img{
         padding: 4% 4%;
         width: 100%;
     }
-    h1{ 
-        font-size: 4rem;
-    }
-    
 }
 @media screen and (max-width: 800px){
-    
-    h1{    
-        font-size: 3rem;
-    }
-    h2{
-        font-size: 1.5rem;
-    }
     button{
         width: 80px;
         height: 40px;
         font-size: medium;
-    }
-   
-   
-    
+    }   
 }
 @media screen and (max-width: 630px){
     .container{    
         padding: 5% 5%;
         width: 100%;
     }
-    h1{    
-        font-weight: bolder;
-        font-size: 3rem;
-    }
     button{
         width: 70px;
         height: 35px;
         font-size: small;
     }
-    
-
 }
 @media screen and (max-width: 500px){
     .container{    
         padding: 5% 5%;
         width: 100%;
     }
-    h1{    
-        font-weight: bolder;
-        font-size: 2rem;
-    }
-    h2{
-        font-size: 1rem;
-    }
-
 }
 
