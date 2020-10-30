@@ -76,13 +76,15 @@ const dm = `
         Close                        
     </button>
 </a>
-<a id = "go-to-top" href = "#">
-    <img src = "../images/arrow-up.png"/>
-</a>
-<a id = "close" onclick="closeProjectPage()" href = "#portfolio-container">
-    <img src = "../images/close-black.png"/>
-</a>
 </div> 
+<div class = "side-menu">
+                    <a onclick="closeProjectPage()" href = "#portfolio-container">
+                        <img src = "../images/cancel.png" />
+                    </a>
+                    <a href = "#">
+                        <img src = "../images/up-arrow.png"/>
+                    </a>        
+                </div>
 <div class ="project-footer"></div>
 `
 const fullfun = `
@@ -128,12 +130,18 @@ const fullfun = `
                             Close                        
                         </button>
                     </a>
-                    <a id = "go-to-top" href = "#">
-                        <img src = "../images/arrow-up.png"/>
+                    
+                </div>
+                <div class = "side-menu">
+                    <a onclick="closeProjectPage()" href = "#portfolio-container">
+                        <img src = "../images/cancel.png" />
                     </a>
-                    <a id = "close" onclick="closeProjectPage()" href = "#portfolio-container">
-                        <img src = "../images/close-black.png"/>
+                    <a id = "go-to-site" target = "_blank" href="https://privatniboravak.com/">
+                        <img src = "../images/up-arrow.png"/>
                     </a>
+                    <a href = "#">
+                        <img src = "../images/up-arrow.png"/>
+                    </a>        
                 </div>
                 <div class ="project-footer"></div>      
 
@@ -148,6 +156,7 @@ const rockPaperScissors = `
     <h2 id="project-header" class="text-gray-secondary-shadow-dark">
         Rock-paper-scissors
     </h2>
+   
 </div>
 <div id="project">
     <h3>About:</h3>
@@ -159,6 +168,7 @@ const rockPaperScissors = `
          Challenge is to build out this Rock, Paper, Scissors game and get it looking as close to the 
          design as possible. We can use any tools we like to help us complete the challenge.
     </p>
+    
     <h3>Technics:</h3>
     <p> JavaScript, HTML, CSS, Session for keep score.</p>                            
     
@@ -280,13 +290,19 @@ const rockPaperScissors = `
             Close                        
         </button>
     </a>
-    <a id = "go-to-top" href = "#">
-        <img src = "../images/arrow-up.png"/>
-    </a>
-    <a id = "close" onclick="closeProjectPage()" href = "#portfolio-container">
-        <img src = "../images/close-black.png"/>
-    </a>
+    
 </div>
+<div class = "side-menu">
+        <a onclick="closeProjectPage()" href = "#portfolio-container">
+            <img src = "../images/cancel.png" />
+        </a>
+        <a id = "go-to-site" target = "_blank" href="https://tatjama.github.io/fem-rock-paper-scissors-master/">
+            <img src = "../images/up-arrow.png"/>
+        </a>
+        <a href = "#">
+            <img src = "../images/up-arrow.png"/>
+        </a>        
+    </div>
 `
 const eTickets = `
 <div  class="square-out gray-secondary-in">
@@ -436,12 +452,18 @@ const eTickets = `
                             Close                        
                         </button>
                     </a>
-                    <a id = "go-to-top" href = "#">
-                        <img src = "../images/arrow-up.png"/>
+                    
+                </div>
+                <div class = "side-menu">
+                    <a onclick="closeProjectPage()" href = "#portfolio-container">
+                        <img src = "../images/cancel.png" />
                     </a>
-                    <a id = "close" onclick="closeProjectPage()" href = "#portfolio-container">
-                        <img src = "../images/close-black.png"/>
+                    <a id = "go-to-site" target = "_blank" href="https://tatjama.github.io/e-tickets/">
+                        <img src = "../images/up-arrow.png"/>
                     </a>
+                    <a href = "#">
+                        <img src = "../images/up-arrow.png"/>
+                    </a>        
                 </div>
 `
 const bta = `
@@ -575,11 +597,16 @@ const bta = `
                             Close                        
                         </button>
                 </a>
-                <a id = "go-to-top" href = "#">
-                    <img src = "../images/arrow-up.png"/>
-                </a>
-                <a id = "close" onclick="closeProjectPage()" href = "#portfolio-container">
-                    <img src = "../images/close-black.png"/>
-                </a>
+                </div>
+                <div class = "side-menu">
+                    <a onclick="closeProjectPage()" href = "#portfolio-container">
+                        <img src = "../images/cancel.png" />
+                    </a>
+                    <a id = "go-to-site" href = "https://business-travel-agency-react.vercel.app" target = "_blank">
+                        <img src = "../images/up-arrow.png"/>
+                    </a>
+                    <a href = "#">
+                        <img src = "../images/up-arrow.png"/>
+                    </a>        
                 </div>
 `

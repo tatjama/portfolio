@@ -140,6 +140,26 @@ nav{
         padding: 5px;
         font-size: 1.5em;
     }
+    .side-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 200px;
+        position: fixed;
+        right: 20px;
+        top: 200px;
+        padding: 1px;
+        a {    
+        padding: 5px;
+        img{
+            width: 40px;
+            height: 40px;
+        }
+    }
+    }
+    #go-to-site{
+        transform: rotate(90deg);
+    }
     .circle-out{
         width: 70px;
         height: 70px;
@@ -217,6 +237,7 @@ nav{
         }
     }
 }
+
 @media screen and (max-width: 1040px){
     .direction-row.portfolio-cards{
         display: flex;
@@ -264,6 +285,9 @@ nav{
                 padding: 20px;
             }
         }
+        .side-menu{
+            top: 150px;
+        } 
     }
     #project{
         .direction-row{
@@ -289,6 +313,21 @@ nav{
     }
     
 }
+@media screen and (max-width: 800px){
+    .project{
+        .side-menu{
+            top: 100px;
+            right: 15px;
+         a{
+             img{
+                 width: 30px;
+                 height: 30px;
+             }
+         }
+        }
+    }
+    
+}
 @media screen and (max-width: 500px){
     .portfolio-card{
         .two{
@@ -297,12 +336,23 @@ nav{
             margin-top: 10px;
         }
     }
+    .project{
+        .side-menu{
+            top: 70px;
+            right: 5px;
+        }
+    }
     
 }
 @media screen and (max-width: 420px){
     .portfolio-card{
         .two{
             padding: 2px;
+        }
+    }
+    .project{
+        .side-menu{
+            right: 0px;
         }
     }
     
