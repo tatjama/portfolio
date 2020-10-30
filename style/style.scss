@@ -83,37 +83,32 @@ nav{
     .square-out{
         margin-bottom: 5px;
     }
-    .one:hover{       
-        box-shadow: 4px 4px 8px $grayShadow, -4px -4px 8px $grayShadowDark;
-        text-shadow: 2px 2px 4px $grayShadow, -2px -2px 4px $grayShadowDarker;
-        color: $grayShadowDark;
-        font-stretch: extra-condensed;
-        
-        div{
-            text-shadow: 2px 2px 4px $grayShadow, -2px -2px 4px $grayShadowDarker;
-            transform: scale(0.9);
-        }
-           
-    }     
-    a:last-child:hover{
-        color: $redShadowLighter;
-    }
+    .one:hover,
     .two:hover{       
         box-shadow: 4px 4px 8px $grayShadow, -4px -4px 8px $grayShadowDark;
         text-shadow: 2px 2px 4px $grayShadow, -2px -2px 4px $grayShadowDarker;
         color: $grayShadowDark;
-        font-stretch: extra-condensed;
-        transform: scale(0.9);
+        font-stretch: extra-condensed;        
+        div{
+            text-shadow: 2px 2px 4px $grayShadow, -2px -2px 4px $grayShadowDarker;
+            transform: scale(0.9);
+        }           
+    }     
+    a:last-child:hover{
+        color: $redShadowLighter;
+    }
+    .two:hover{   
         div{           
             box-shadow: 4px 4px 8px $grayShadow, -4px -4px 8px $grayShadowDark;
         }
     }     
 }
+
 .active{
-    text-shadow: 2px 2px 4px $grayShadowDark, -2px -2px 4px $grayShadowDarker;
-    color: $redShadowLight;
     box-shadow: 4px 4px 8px $redShadowLighter, -4px -4px 8px $grayShadowDark;
-        font-stretch: extra-condensed; 
+    text-shadow: 2px 2px 4px $grayShadowDark, -2px -2px 4px $grayShadowDarker;
+    color: $redShadowLight;    
+    font-stretch: extra-condensed; 
 }
 .active.one div{
     text-shadow: 2px 2px 4px $grayShadow, -2px -2px 4px $grayShadowDarker;
@@ -271,15 +266,12 @@ nav{
         }   
         .square-out, .square-in{
             border-radius: 30px;
-        }      
-        .one,
-        .two{
-            padding: 15px;
-        }  
+        } 
         .card{
             width: 70%;
-        }      
+        }
         .two{
+            padding: 15px;
             width: 30%;
             div{
                 margin: auto;
@@ -288,7 +280,7 @@ nav{
         .square-in{            
             .square-out{
                 display: flex;
-            flex-direction: row;
+                flex-direction: row;
             .one{
                 display: none;
             }
