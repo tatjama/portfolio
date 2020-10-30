@@ -245,6 +245,11 @@ nav{
         justify-content: space-around;
         padding: 20px 10px;
     }
+    .card{
+        .direction-row-between{
+            justify-content: space-around;
+        }
+    }
     .portfolio-card{
         max-width: 100%;
         width: 100%;  
@@ -350,6 +355,10 @@ nav{
             padding: 2px;
         }
     }
+    .card{
+        .direction-row-between{
+            justify-content: space-between;
+        }
     .project{
         .side-menu{
             right: 0px;
