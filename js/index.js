@@ -172,7 +172,7 @@ const rockPaperScissors = `
     <p> JavaScript, HTML, CSS, Session for keep score.</p>                            
     
     <h3>Avatar:</h3>                        
-         Users should be able to:                               
+        <p> Users should be able to:    </p>                           
             <ul>                                   
                 <li>View the optimal layout for the game depending on their device's screen size,</li>
                 <li>Play Rock, Paper, Scissors against the computer,</li>
@@ -180,7 +180,7 @@ const rockPaperScissors = `
                 <li>Bonus: Play Rock, Paper, Scissors, Lizard, Spock against the computer (optional)</li>
             </ul>  
     <h3>Rules:</h3>
-    If the player wins, they gain 1 point. If the computer wins, the player loses one point.
+    <p>If the player wins, they gain 1 point. If the computer wins, the player loses one point.</p>
      <ul>
          <li>
             Original

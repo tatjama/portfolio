@@ -9,7 +9,6 @@ body, html{
     font-family: Arial, Helvetica, sans-serif;
     scroll-behavior: smooth;
     overflow-x: hidden;
-
 }
 
 ::-webkit-scrollbar{
@@ -41,11 +40,6 @@ header{
 a{
     text-decoration: none;
     display: block;
-}
-
-ul, ol{
-    padding: 20px;
-    font-size: 1.2rem;
 }
 button{
     width: 100px;

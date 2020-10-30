@@ -133,14 +133,6 @@ nav{
     div{
         padding: 5%;
     }
-    p{
-        font-size: 1em;
-        padding: 5px;
-    }
-    h3{
-        padding: 5px;
-        font-size: 1.5em;
-    }
     .side-menu{
         display: flex;
         flex-direction: column;
@@ -363,7 +355,10 @@ nav{
     .project{
         .side-menu{
             right: 0px;
-        }
+        }        
+    }
+    #project{
+        padding: 0px;
     }
     
 }
