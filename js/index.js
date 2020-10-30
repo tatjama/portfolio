@@ -78,10 +78,10 @@ const dm = `
 </div> 
 <div class = "side-menu">
                     <a onclick="closeProjectPage()" href = "#portfolio-container">
-                        <img src = "../images/cancel – kopija.png">
+                        <img src = "./images/cancel – kopija.png">
                     </a>
                     <a href = "#">
-                        <img src = "../images/up-arrow – kopija.png "/>
+                        <img src = "./images/up-arrow – kopija.png "/>
                     </a>        
                 </div>
 <div class ="project-footer"></div>
@@ -133,13 +133,13 @@ const fullfun = `
                 </div>
                 <div class = "side-menu">
                     <a onclick="closeProjectPage()" href = "#portfolio-container">
-                        <img src = "../images/cancel – kopija.png" />
+                        <img src = "./images/cancel – kopija.png" />
                     </a>
                     <a id = "go-to-site" target = "_blank" href="https://privatniboravak.com/">
-                        <img src = "../images/up-arrow – kopija.png" alt ="arrow"/>
+                        <img src = "./images/up-arrow – kopija.png" alt ="arrow"/>
                     </a>
                     <a href = "#">
-                        <img src = "../images/up-arrow – kopija.png" alt ="arrow"/>
+                        <img src = "./images/up-arrow – kopija.png" alt ="arrow"/>
                     </a>        
                 </div>
                 <div class ="project-footer"></div>      
@@ -293,13 +293,13 @@ const rockPaperScissors = `
 </div>
 <div class = "side-menu">
         <a onclick="closeProjectPage()" href = "#portfolio-container">
-            <img src = "../images/cancel.png" />
+            <img src = "./images/cancel.png" />
         </a>
         <a id = "go-to-site" target = "_blank" href="https://tatjama.github.io/fem-rock-paper-scissors-master/">
-            <img src = "../images/up-arrow.png"/>
+            <img src = "./images/up-arrow.png"/>
         </a>
         <a href = "#">
-            <img src = "../images/up-arrow.png"/>
+            <img src = "./images/up-arrow.png"/>
         </a>        
     </div>
 `
@@ -454,13 +454,13 @@ const eTickets = `
                 </div>
                 <div class = "side-menu">
                     <a onclick="closeProjectPage()" href = "#portfolio-container">
-                        <img src = "../images/cancel.png" />
+                        <img src = "./images/cancel.png" />
                     </a>
                     <a id = "go-to-site" target = "_blank" href="https://tatjama.github.io/e-tickets/">
-                        <img src = "../images/up-arrow.png"/>
+                        <img src = "./images/up-arrow.png"/>
                     </a>
                     <a href = "#">
-                        <img src = "../images/up-arrow.png"/>
+                        <img src = "./images/up-arrow.png"/>
                     </a>        
                 </div>
 `
@@ -598,13 +598,13 @@ const bta = `
                 </div>
                 <div class = "side-menu">
                     <a onclick="closeProjectPage()" href = "#portfolio-container">
-                        <img src = "../images/cancel.png" />
+                        <img src = "./images/cancel.png" />
                     </a>
                     <a id = "go-to-site" href = "https://business-travel-agency-react.vercel.app" target = "_blank">
-                        <img src = "../images/up-arrow.png"/>
+                        <img src = "./images/up-arrow.png"/>
                     </a>
                     <a href = "#">
-                        <img src = "../images/up-arrow.png"/>
+                        <img src = "./images/up-arrow.png"/>
                     </a>        
                 </div>
 `
