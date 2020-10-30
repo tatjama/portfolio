@@ -4,6 +4,40 @@
 @import "./text";
 @import './_darkMode';
 @import "./lightMode";
+
+
+header{
+    padding: 20px 0px;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}
+.direction-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 10px;
+}
+.direction-row-between{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+span{
+    font-weight: bold;
+    font-stretch: ultra-condensed;
+}
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
 nav{
     .direction-row{
         justify-content: flex-end;
@@ -80,7 +114,6 @@ nav{
     }     
 }
 .active{
-    /*box-shadow: 4px 4px 8px $grayShadow, -4px -4px 8px $grayShadowDark;*/
     text-shadow: 2px 2px 4px $grayShadowDark, -2px -2px 4px $grayShadowDarker;
     color: $redShadowLight;
     box-shadow: 4px 4px 8px $redShadowLighter, -4px -4px 8px $grayShadowDark;

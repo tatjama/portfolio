@@ -30,39 +30,9 @@ body, html{
         background: $redShadowLight;
     }
 }
-header{
-    padding: 20px 0px;
-}
 .container{    
     padding: 4% 10%;
     width: 100%;
-}
-a{
-    text-decoration: none;
-    display: block;
-}
-.direction-row{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 20px 10px;
-}
-.direction-row-between{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-}
-
-span{
-    font-weight: bold;
-    font-stretch: ultra-condensed;
-}
-img{
-    width: 50px;
-    height: 50px;
-    border-radius: 10px;
 }
 
 @media screen and (max-width:1180px){
