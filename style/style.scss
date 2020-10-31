@@ -60,14 +60,12 @@ nav{
 #portfolio-container{
     width: 100%;
     height: 100%;
-    padding: 20px;
-    
+    padding: 20px;    
 }
 .direction-row-between .circle-out{
     width: 35px;
     height: 35px;
 }
-
 .portfolio-card{
     width: 20%;
     height: 100%;
@@ -84,10 +82,8 @@ nav{
         margin-bottom: 5px;
     }
     .one:hover,
-    .two:hover{       
-        box-shadow: 4px 4px 8px $grayShadow, -4px -4px 8px $grayShadowDark;
-        text-shadow: 2px 2px 4px $grayShadow, -2px -2px 4px $grayShadowDarker;
-        color: $grayShadowDark;
+    .two:hover{   
+        @include text-box($grayShadowDark, $grayShadow, $grayShadowDarker, $grayShadow, $grayShadowDark);
         font-stretch: extra-condensed;        
         div{
             text-shadow: 2px 2px 4px $grayShadow, -2px -2px 4px $grayShadowDarker;
@@ -102,19 +98,6 @@ nav{
             box-shadow: 4px 4px 8px $grayShadow, -4px -4px 8px $grayShadowDark;
         }
     }     
-}
-
-.active{
-    box-shadow: 4px 4px 8px $redShadowLighter, -4px -4px 8px $grayShadowDark;
-    text-shadow: 2px 2px 4px $grayShadowDark, -2px -2px 4px $grayShadowDarker;
-    color: $redShadowLight;    
-    font-stretch: extra-condensed; 
-}
-.active.one div{
-    text-shadow: 2px 2px 4px $grayShadow, -2px -2px 4px $grayShadowDarker;
-}
-.active.two div{
-    box-shadow: 4px 4px 8px $grayShadow, -4px -4px 8px $grayShadowDark;
 }
 .card{
     margin-bottom: 25px;
@@ -208,8 +191,7 @@ nav{
 .contact{
     img{
         width: 30px;
-        height: auto;
-        
+        height: auto;        
     }
     .circle-in{
         border: 0px;
@@ -253,6 +235,7 @@ nav{
         @include flex(20px 10px, space-around, column);       
     }
     .card{
+        width: 70%;
         .direction-row-between{
             justify-content: space-around;
         }
@@ -263,13 +246,8 @@ nav{
         margin-bottom: 20px;   
         .square-out{
             margin-bottom: 5px;
-        }   
-        .square-out, .square-in{
             border-radius: 30px;
-        } 
-        .card{
-            width: 70%;
-        }
+        }  
         .two{
             padding: 15px;
             width: 30%;
@@ -277,7 +255,8 @@ nav{
                 margin: auto;
             } 
         }        
-        .square-in{            
+        .square-in{  
+            border-radius: 30px;          
             .square-out{
                 display: flex;
                 flex-direction: row;
@@ -370,7 +349,6 @@ nav{
     }
     #project{
         padding: 0px;
-    }
-    
+    }    
 }
 }

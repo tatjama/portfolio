@@ -1,56 +1,23 @@
 /*DARK MODE*/
+.dark-mode span{ 
+     text-shadow: 4px 4px 8px $grayShadow, -4px -4px 8px $grayShadowDark;   
+    color: $redShadowLighter;   
+}   
 
-.dark-mode span{   
-            text-shadow: 4px 4px 8px $grayShadow, -4px -4px 8px $grayShadowDark;   
-            color: $redShadowLighter;   
-        }    
+@mixin text-box($color, $color_1, $color_2, $color_3, $color_4){
+    color: $color;
+    text-shadow: 2px 2px 4px $color_1, -2px -2px 4px $color_2;
+    box-shadow: 4px 4px 8px $color_3, -4px -4px 8px $color_4;
+}
+@mixin border-box($color, $color_1, $color_2){
+    border: solid 5px $color;
+    box-shadow: 4px 4px 8px $color_1, -4px -4px 8px $color_2;
+}
 
-/*Button*/    
-    
-    .up-white{
-        color: $grayShadowLight;    
-        text-shadow: 2px 2px 4px $graySecondaryColor, -2px -2px 4px $grayShadowLight;
-        box-shadow: 4px 4px 8px $grayShadow, -4px -4px 8px $grayShadowLight;
-    }
-    .down-white{
-        color: $grayShadowLight;    
-        text-shadow: 2px 2px 4px $grayShadowLight, -2px -2px 4px $graySecondaryColor;
-        box-shadow: 4px 4px 8px $grayShadowLight, -4px -4px 8px $grayShadow;
-        font-stretch: extra-condensed;
-    }
-    .up-red{    
-        color: $redPrimaryColor;
-        text-shadow: 2px 2px 4px $redShadowDarker, -2px -2px 4px $redShadowLighter;
-        box-shadow: 4px 4px 8px $grayShadowDark, -4px -4px 8px $redShadowLight;    
-    }
-    .down-red{    
-        color: $redPrimaryColor;
-        text-shadow: 2px 2px 4px $redShadowLight, -2px -2px 4px $redShadowDarker;
-        box-shadow: 4px 4px 8px $redShadowLight, -4px -4px 8px $grayShadowDark;
-        font-stretch: extra-condensed;
-    }
-    .up-black{
-        text-shadow: 2px 2px 4px $redShadowDarker, -2px -2px 4px $redShadowLighter;
-        box-shadow: 4px 4px 8px $grayShadowDark, -4px -4px 8px $redShadowLight;    
-    }
-    .down-black{
-        text-shadow: 2px 2px 4px $redShadowLight, -2px -2px 4px $redShadowDarker;
-        box-shadow: 4px 4px 8px $redShadowLight, -4px -4px 8px $grayShadowDark;
-        font-stretch: extra-condensed;
-    }
+/*Button*/        
     .up-dark{
-        color: $grayShadowDark;    
-        text-shadow: 2px 2px 4px $grayShadowDarker, -2px -2px 4px $grayPrimaryColor;
-        box-shadow: 4px 4px 8px $grayShadowDark, -4px -4px 8px $grayPrimaryColor;
-    }
-    .down-dark{
-        color: $grayShadowDark;    
-        text-shadow: 2px 2px 4px $grayShadow, -2px -2px 4px $grayShadowDarker;
-        box-shadow: 4px 4px 8px $grayShadow, -4px -4px 8px $grayShadowDark;
-        font-stretch: extra-condensed;
-    }
-  
-
+        @include text-box($grayShadowDark, $grayShadowDarker, $grayPrimaryColor, $grayShadowDark, $grayPrimaryColor);
+    }  
 
 /*Colors*/
 .color-red{
@@ -59,14 +26,8 @@
 .color-gray-secondary{
     background-color: $graySecondaryColor;
 }
-.text-color-red{
-    color: $redPrimaryColor;
-}
 .text-gray-secondary-color{
     color: $graySecondaryColor;
-}
-.text-gray-secondary-color-dark{
-    color: $grayShadowDark;
 }
 .text-gray-secondary-color-darker{
     color: $grayShadowDarker;
@@ -79,28 +40,14 @@
 .text-gray-secondary-shadow-dark{
     text-shadow: 2px 2px 4px $grayShadowDarker, -2px -2px 4px $grayPrimaryColor;
 }
-.text-gray-secondary-shadow-dark-in{
-    text-shadow: 2px 2px 4px $grayShadow, -2px -2px 4px $grayShadowDarker;
-}
-.text-gray-secondary-shadow-red-dark{
-    text-shadow: 2px 2px 4px $redShadowDarker, -2px -2px 4px $redShadowLighter;
-}
-
 .gray-secondary-out{
-    border: solid 5px $graySecondaryColor;
-    box-shadow: 4px 4px 8px $grayShadowDark, -4px -4px 8px $grayPrimaryColor;
+    @include border-box($graySecondaryColor, $grayShadowDark, $grayPrimaryColor );
 }
 .gray-secondary-in{
-    border: solid 5px $graySecondaryColor;
-    box-shadow: 4px 4px 8px $grayShadow, -4px -4px 8px $grayShadowDark;
+    @include border-box($graySecondaryColor, $grayShadow, $grayShadowDark );
 }
 .red-secondary-out{
-    border: solid 5px $graySecondaryColor;
-    box-shadow: 4px 4px 8px $grayShadowDark, -4px -4px 8px $redShadowLighter;
-}
-.red-secondary-in{
-    border: solid 5px $graySecondaryColor;
-    box-shadow: 4px 4px 8px $redShadowLighter, -4px -4px 8px $grayShadowDark;
+    @include border-box($graySecondaryColor, $grayShadowDark, $grayShadowLighter);
 }
 
 @media screen and (max-width: 800px){    
