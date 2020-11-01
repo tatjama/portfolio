@@ -47,7 +47,7 @@
     @include border-box($graySecondaryColor, $grayShadow, $grayShadowDark );
 }
 .red-secondary-out{
-    @include border-box($graySecondaryColor, $grayShadowDark, $grayShadowLighter);
+    @include border-box($graySecondaryColor, $grayShadowDark, $grayShadowLight);
 }
 
 @media screen and (max-width: 800px){    
