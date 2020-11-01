@@ -1,0 +1,79 @@
+@media screen and (max-width:1180px){
+    .container{    
+        padding: 4% 4%;
+    }
+    h1{ 
+        font-size: 4rem;
+    }
+}
+@media screen and (max-width: 1040px){
+    .direction-row.portfolio-cards{
+        @include flex(20px 10px, space-around, column);       
+    }
+    .card{
+        width: 70%;
+        .direction-row-between{
+            justify-content: space-around;
+        }
+    }
+    .portfolio-card{
+        max-width: 100%;
+        width: 100%;  
+        margin-bottom: 20px;   
+        .square-out{
+            margin-bottom: 5px;
+            border-radius: 30px;
+        }  
+        .two{
+            padding: 15px;
+            width: 30%;
+            div{
+                margin: auto;
+            } 
+        }        
+        .square-in{  
+            border-radius: 30px;          
+            .square-out{
+                display: flex;
+                flex-direction: row;
+            .one{
+                display: none;
+            }
+            }            
+        }
+    }
+    .project{
+        .direction-row-between{
+            flex-direction: column;
+            h2{
+                padding: 20px;
+            }
+        }
+        .side-menu{
+            top: 150px;
+        } 
+    }
+    #project{
+        .direction-row{
+            flex-direction: column;
+        }
+    }
+    .contact{
+        .direction-row{
+            flex-wrap: wrap;
+            h4{
+                width: 100%;
+                padding: 30px;
+            }
+        }
+    }
+    .project-footer{
+        height: 2000px;
+    }
+    .credentials{
+        .direction-row{
+            flex-direction: column;
+        }
+    }
+    
+}

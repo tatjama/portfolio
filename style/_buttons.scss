@@ -47,18 +47,4 @@ button{
     @extend .square-in;
     border-radius: 30px;
 }
-@media screen and (max-width: 800px){
-    button{
-        width: 80px;
-        height: 40px;
-        font-size: medium;
-    }   
-}
-@media screen and (max-width: 630px){
-    button{
-        width: 70px;
-        height: 35px;
-        font-size: small;
-    }
-}
 
