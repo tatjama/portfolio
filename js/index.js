@@ -70,7 +70,7 @@ const dm = `
     <br/>Tanja
 </div>
 <br/>
-<a href="#portfolio-container">
+<a class = "close-button" href="#portfolio-container">
     <button onclick="closeProjectPage()" class="up-dark color-gray-secondary">                        
         Close                        
     </button>
@@ -99,7 +99,9 @@ const fullfun = `
                     </div>
                     <div id="project">
                         <h3>About:</h3>
-                        <p> Full Fun is a presentation website for extended day care for elementary school students
+                        <p> 
+                        <strong><a href="https://privatniboravak.com" target = "_blank">Full Fun</a>
+                        </strong> is a presentation website for extended day care for elementary school students
                         </p>
                         <h3>Technics:</h3>
                         <p>SEO, JavaScript, HTML, CSS, PHP.</p>                            
@@ -124,7 +126,7 @@ const fullfun = `
                         <br/>Tanja
                     </div>
                     <br/>
-                    <a href="#portfolio-container">
+                    <a class = "close-button" href="#portfolio-container">
                         <button onclick="closeProjectPage()" class="up-dark color-gray-secondary">                        
                             Close                        
                         </button>
@@ -159,7 +161,9 @@ const rockPaperScissors = `
 </div>
 <div id="project">
     <h3>About:</h3>
-    <p> Rock-paper-scissors is advanced challenge game by 
+    <p><strong>
+    <a href="https://tatjama.github.io/fem-rock-paper-scissors-master/"  target = "_blank">Rock-paper-scissors</a>
+    </strong>  is advanced challenge game by 
         <a href="https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH" target="_blank">
             Frontend Mentor
         </a>. 
@@ -284,7 +288,7 @@ const rockPaperScissors = `
     <br/>Tanja
 </div>
 <br/>
-    <a href="#portfolio-container">
+    <a class = "close-button" href="#portfolio-container">
         <button onclick="closeProjectPage()" class="up-dark color-gray-secondary">                        
             Close                        
         </button>
@@ -316,7 +320,10 @@ const eTickets = `
                     </div>
                     <div id="project">
                         <h3>About:</h3>
-                        <p>E-tickets is bilingual(English/Serbian) CRUD application that allow users to see, create and update information about 
+                        <p>
+                        <strong>
+                        <a href="https://tatjama.github.io/e-ticket/" target = "_blank">E-tickets</a></strong>
+                         is bilingual(English/Serbian) CRUD application that allow users to see, create and update information about 
                             performances, and to buy or to sell tickets for theatre. </p>
                         <h3>Technics:</h3>
                         <p> JavaScript, HTML, CSS, Sass, jQuery, session storage and local storage</p>                            
@@ -445,7 +452,7 @@ const eTickets = `
                         <br/>Tanja
                     </div>
                     <br/>
-                    <a href="#portfolio-container">
+                    <a class = "close-button" href="#portfolio-container">
                         <button onclick="closeProjectPage()" class="up-dark color-gray-secondary">                        
                             Close                        
                         </button>
@@ -471,13 +478,18 @@ const bta = `
                             
                             <img class="circle-out gray-secondary-out " src="./images/travel-and-tourism.png" alt="suites"/>
                         </a>
+                        
                         <h2 id="project-header" class="text-gray-secondary-shadow-dark">
                             Business travel agency
                         </h2>
                     </div>
                     <div id="project">
                         <h3>About:</h3>
-                        <p>Business travel agency (bta) is application that allow users to see information, give feedback 
+                        <p>
+                            <strong><a href = "https://business-travel-agency-react.vercel.app" target = "_blank">
+                                Business travel agency (bta)
+                            </a> </strong>
+                            is application that allow users to see information, give feedback 
                             and see other users comments about accommodation, transport, local culture, food etc. in some city
                         </p>
                         <h3>Technics:</h3>
@@ -496,7 +508,8 @@ const bta = `
                             <li> User 
                                 <br/>
                                 Default value: email: user@user.com, password: UserUser1
-                                <ul>Can do:
+                                <ul>
+                                <p>Can do:</p>
                                     <li>sign in,</li>
                                     <li>sign up,</li>
                                     <li>see information about hotels, restaurants, attractions, airports, providers(airplane, train, bus, rent a car)</li>
@@ -510,7 +523,7 @@ const bta = `
                                 <br/>
                                 Default value: email: admin@admin.com, password: AdminAdmin1
                                 <ul>
-                                    Can do:
+                                    <p>Can do:</p>
                                     <li>all that user can do,</li>
                                     <li>delete users comment ,</li>
                                     <li>add new provider,</li>
@@ -590,7 +603,7 @@ const bta = `
                         </ol>
                     </div>
                     <br/>
-                    <a href="#portfolio-container">
+                    <a class = "close-button" href="#portfolio-container">
                         <button onclick="closeProjectPage()" class="up-dark color-gray-secondary">                        
                             Close                        
                         </button>
