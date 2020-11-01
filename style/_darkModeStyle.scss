@@ -16,8 +16,9 @@ span{
 }
 a{
     text-decoration: none;
-    display: block;
+    display: inline-block;
 }
+
 img{
     width: 50px;
     height: 50px;
@@ -40,11 +41,11 @@ nav{
             }            
         }
         #active{
-            color: $redPrimaryColor;
+            color: $accentPrimaryColor;
             div{                
-            box-shadow: 4px 4px 8px $grayShadowDark, -4px -4px 8px $redShadowLighter;
+            box-shadow: 4px 4px 8px $grayShadowDark, -4px -4px 8px $accentShadowLighter;
             img{
-                box-shadow: 4px 4px 8px $redShadowLighter, -4px -4px 8px $grayShadowDark;
+                box-shadow: 4px 4px 8px $accentShadowLighter, -4px -4px 8px $grayShadowDark;
             }
             }
         }
@@ -84,7 +85,7 @@ nav{
         }           
     }     
     a:last-child:hover{
-        color: $redPrimaryColor;
+        color: $accentPrimaryColor;
     }
     .two:hover{   
         div{           
@@ -161,13 +162,16 @@ nav{
         width: 100%;
     }
     button:hover{
-        background-color: $redShadowLighter;
+        background-color: $accentShadowLighter;
     }
     a{
-        color: $redPrimaryColor;
+        color: $accentPrimaryColor;
         &:hover{
-            color: $redShadowLight;
+            color: $accentShadowLight;
         }
+    }
+    .close-button{
+        display: block;
     }
     figure{
         img{
@@ -193,11 +197,11 @@ nav{
         }
     }
     .contact-target:hover{
-        color: $redPrimaryColor;
+        color: $accentPrimaryColor;
         div{            
-        box-shadow: 4px 4px 8px $grayShadowDark, -4px -4px 8px $redShadowLighter;
+        box-shadow: 4px 4px 8px $grayShadowDark, -4px -4px 8px $accentShadowLighter;
         img{
-            box-shadow: 4px 4px 8px $redShadowLighter, -4px -4px 8px $grayShadowDark;
+            box-shadow: 4px 4px 8px $accentShadowLighter, -4px -4px 8px $grayShadowDark;
         }
         }
     }

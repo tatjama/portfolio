@@ -1,7 +1,7 @@
 /*DARK MODE*/
 .dark-mode span{ 
      text-shadow: 4px 4px 8px $grayShadow, -4px -4px 8px $grayShadowDark;   
-    color: $redPrimaryColor;   
+    color: $accentPrimaryColor;   
 }   
 
 @mixin text-box($color, $color_1, $color_2, $color_3, $color_4){
@@ -21,7 +21,7 @@
 
 /*Colors*/
 .color-red{
-    background-color: $redShadowLighter;
+    background-color: $accentShadowLighter;
 }
 .color-gray-secondary{
     background-color: $graySecondaryColor;
@@ -47,7 +47,7 @@
     @include border-box($graySecondaryColor, $grayShadow, $grayShadowDark );
 }
 .red-secondary-out{
-    @include border-box($graySecondaryColor, $grayShadowDark, $redShadowLighter);
+    @include border-box($graySecondaryColor, $grayShadowDark, $accentShadowLighter);
 }
 
 @media screen and (max-width: 800px){    
