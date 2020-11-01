@@ -5,10 +5,7 @@ button{
     border: none;
     margin: 10px 10px;    
     font-size: large;
-    font-weight: normal;
-    &:hover{
-        background-color: $grayShadowLight;
-    }
+    font-weight: normal;    
 }  
 /*circles*/
 .circle-out{    
