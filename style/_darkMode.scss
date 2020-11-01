@@ -1,7 +1,7 @@
 /*DARK MODE*/
 .dark-mode span{ 
      text-shadow: 4px 4px 8px $grayShadow, -4px -4px 8px $grayShadowDark;   
-    color: $redShadowLighter;   
+    color: $redPrimaryColor;   
 }   
 
 @mixin text-box($color, $color_1, $color_2, $color_3, $color_4){
