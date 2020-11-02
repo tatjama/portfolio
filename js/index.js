@@ -258,7 +258,18 @@ const portfolio = `
             </a>
         </div>
     </div>
-    
+    <div class="contact-target">                        
+        <p>
+            CV
+        </p>
+        <br/>
+        <div onclick="showEMail()" class="circle-out red-secondary-out">
+            <a target="_blank" title="Download CV" href = "./downloads/tatjana_markovic_CV.pdf">
+                <img id="portfolio-image" src="./images/portfolio.png" alt="portfolio"/>
+            </a>            
+        </div>
+
+     </div>
      <div class="contact-target">                        
         <p>
             e-mail

@@ -196,13 +196,16 @@ nav{
             width: 25px;
         }
     }
-    .contact-target:hover{
-        color: $accentPrimaryColor;
-        div{            
-        box-shadow: 4px 4px 8px $grayShadowDark, -4px -4px 8px $accentShadowLighter;
-        img{
-            box-shadow: 4px 4px 8px $accentShadowLighter, -4px -4px 8px $grayShadowDark;
-        }
+    .contact-target{
+        text-align: center;
+        &:hover{
+            color: $accentPrimaryColor;
+            div{            
+            box-shadow: 4px 4px 8px $grayShadowDark, -4px -4px 8px $accentShadowLighter;
+            img{
+                box-shadow: 4px 4px 8px $accentShadowLighter, -4px -4px 8px $grayShadowDark;
+            }
+            }
         }
     }
     #e-mail{
@@ -211,6 +214,10 @@ nav{
     #linkedIn-image,
     #e-mail-image{
         padding: 3px;        
+    }
+    
+    #portfolio-image{
+        padding: 4px;        
     }
     #gitHub-image{
         padding: 2px;        
