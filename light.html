@@ -15,14 +15,14 @@
     <meta name="author" content="tanja, tanja120a@gmail.com">
     <meta name="copyright" content="Tanja - Portfolio" >
     <meta name="owner" content="Tatjana Markovic">
-    <meta name="url" content="https://www.privatniboravak.com">
-    <meta name="identifier-URL" content="https://www.privatniboravak.com">
+    <meta name="url" content="https://tatjama.github.io/portfolio/#portfolio-container">
+    <meta name="identifier-URL" content="https://tatjama.github.io/portfolio/#portfolio-container">
     <meta name=”robots” content=”index” />
     <meta name="robots" content="follow" />
     <meta property="og:type" content="article" />
     <meta property="og:title" content="Tatjana Markovic | Portfolio" />
-    <meta property="og:description" content="This is the place where you can see some of my works"" />   
-    <meta property="og:url" content="https://privatniboravak.com/index.html" />
+    <meta property="og:description" content="This is the place where you can see some of my works" />   
+    <meta property="og:url" content="https://https://tatjama.github.io/portfolio/#portfolio-container" />
     <meta property="og:site_name" content="Portfolio - Tatjana Markovic " />  
     <!--favicon, social images--> 
     <!--<meta property="og:image" content="https://privatniboravak.com/images/logo-linkdin.jpg"/>
@@ -31,337 +31,36 @@
     <link rel="icon" type="image/png" sizes="512x512" href="https://privatniboravak.com/favicon/android-chrome-512x512.png">
     <link rel="icon" type="image/png" sizes="32x32" href="https://privatniboravak.com/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://privatniboravak.com/favicon/favicon-16x16.png">
-    <link rel="manifest" href="https://privatniboravak.com/favicon/site.webmanifest">-->
-    <!---canonical-->
-    <!--<link rel="canonical" href="https://privatniboravak.com">     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="style/navigation.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="style/main.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="./style/footer.css"> 
-    <link rel="stylesheet" type="text/css" media="screen" href="./style/maturskiindex.css">
-    <link rel="icon" href="./images/logo FF-02.webp" sizes="16x16" type="image/png">-->
+    -->
     
         <title>Portfolio | Tatjana Markovic | Light mode</title>
         <link rel="stylesheet" type= "text/css" screen = "media" href="./style/style_1.css">
     </head>
-    <body>
+    <body onload="loadPortfolio()">
         
         <div class="container dark-mode color-gray-secondary">
             <nav class="contact">
             <div class="direction-row">
-                <div id="active" class="contact-target">                    
+                <div  class="contact-target">                    
                     <div class="circle-out red-secondary-out">                            
-                        <a href="#">
+                        <a href="./index.html">
                             <img id = "dark-image" src="./images/night-mode (2).png" alt="moon"/>
                         </a>
                     </div>   
                 </div>
-                <div class="contact-target">                        
+                <div id="active" class="contact-target">                        
                    
                     <div class="circle-out red-secondary-out">
-                        <a href="./light.html">
+                        <a href="#">
                             <img id="light-image" src="./images/sun (2).png" alt="sun"/>
                         </a>
                     </div>
-                </div>
-                <!--
-                 <div class="contact-target">                        
-                    <p>
-                        normal-mode
-                    </p>
-                    <br/>
-                    <div  class="circle-out red-secondary-out">
-                        <a href="./normal.html">
-                            <img id="e-mail-image" src="./images/send-mail.png" alt="day night"/>
-                        </a>
-                    </div>
-
-                 </div>   
-                -->                    
+                </div>                 
             </div>
         </nav>
-            <header class="text-gray-secondary-color text-gray-secondary-shadow">
-                <h1>Hello, my name is <span>Tanja</span></h1>
-                <h1>I'm Frontend developer</h1>            
-                <h1>This is my portfolio</h1>                
-            </header>
-            <section class="portfolio">
-                <div id="portfolio-container" class="square-out-round gray-secondary-out">
-                    <div class="direction-row-between">
-                        <div class="circle-out gray-secondary-out">
-                            <div class="circle-in gray-secondary-in">
-                            </div>
-                        </div>
-                        <div class="circle-out gray-secondary-out">
-                            <div class="circle-in gray-secondary-in">
-                            </div>
-                        </div>
-
-                    </div>
-                    <h2 class="text-gray-secondary-color-darker">
-                        Let me introduce myself through my projects...
-                    </h2>
-                    <div  class="direction-row portfolio-cards ">
-                        <div class="portfolio-card first">
-                            <div  class="square-out gray-secondary-out">
-                                <div class="square-in gray-secondary-in">
-                                    <div class="square-out gray-secondary-in">     
-                                    <div class="card">                                        
-                                        <div class="direction-row-between">
-                                            <img class="large" src="./images/rock (1).png"/>
-                                            <h4 class="text-gray-secondary-shadow-dark" >
-                                                rock-paper-scissors
-                                            </h4>     
-                                                                                   
-                                        </div>
-                                        
-                                    </div>
-                                
-                                    <div onclick="openProjectPage(rockPaperScissors)" class="square-out gray-secondary-out one">
-                                        
-                                        <a href="#">
-                                            <div>
-                                            <h4 class="text-gray-secondary-shadow-dark">Game</h4>
-                                            <p> - JavaScript </p>   
-                                            <p> - Sass</p>                                     
-                                            <p> Learn more...</p>
-                                        </div>
-                                        </a>
-                                    </div>
-
-                                    <div onclick="openProjectPage(rockPaperScissors)" class="square-out gray-secondary-out two">
-                                        <div class="circle-out gray-secondary-out color-red">
-                                            <a href="#">
-                                                <img class="play" src = "./images/arrow-up.png"/>
-                                            </a>
-                                        </div>                                        
-                                    </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="portfolio-card ">
-                            <div  class="square-out gray-secondary-out">
-                                <div class="square-in gray-secondary-in">
-                                    <div class="square-out gray-secondary-in">   
-                                        <div class="card">                                    
-                                            <div class="direction-row-between">
-                                                <img class="large" src="./images/travel-and-tourism.png"/>
-                                                <h4 class="text-gray-secondary-shadow-dark" >
-                                                    bta
-                                                </h4>
-                                                
-                                            </div>
-                                        </div> 
-                                                                                                   
-                                        <div onclick="openProjectPage(bta)" class="square-out gray-secondary-out one">
-                                        <a href="#">
-                                            <h4 class="text-gray-secondary-shadow-dark">Trip advisor</h4>
-                                            <p> - ReactJS</p>  
-                                            <p> - CSS</p>                                      
-                                            <p> Learn more...</p>    
-                                        </a>                                        
-                                        </div>                                   
-
-                                    <div onclick="openProjectPage(bta)" class="square-out gray-secondary-out two ">
-                                        <div class="circle-out gray-secondary-out color-red">
-                                            <a href="#">
-                                                <img class="play" src = "./images/arrow-up.png"/>
-                                            </a>
-                                        </div>                                        
-                                    </div>
-                                </div> 
-                                </div>
-                            </div>
-                        </div>
-                        <div class="portfolio-card">
-                            <div  class="square-out gray-secondary-out">
-                                <div class="square-in gray-secondary-in">
-                                    <div class="square-out gray-secondary-in"> 
-                                        <div class="card">                                       
-                                            <div class="direction-row-between">
-                                                <img class="large" src="./images/theater.png"/>
-                                                <h4 class="text-gray-secondary-shadow-dark" >
-                                                    e-ticket
-                                                </h4>
-                                            </div>
-                                        </div>
-                                    
-                                
-                                    <div onclick="openProjectPage(eTickets)" class="square-out gray-secondary-out one">
-                                        <a href="#">
-                                            <h4 class="text-gray-secondary-shadow-dark">CRUD App</h4>
-                                            <p> - JavaScript </p>    
-                                            <p> - CSS</p>                                    
-                                            <p> Learn more...</p>
-                                        </a>
-                                    </div>
-
-                                    <div onclick="openProjectPage(eTickets)" class="square-out gray-secondary-out two">
-                                        <div class="circle-out gray-secondary-out color-red">
-                                            <a href="#">
-                                                <img class="play" src = "./images/arrow-up.png"/>
-                                            </a>
-                                        </div>                                        
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="portfolio-card">
-                            <div  class="square-out gray-secondary-out">
-                                <div class="square-in gray-secondary-in">
-
-                                    <div class="square-out gray-secondary-in">
-                                        <div class="card">                                       
-                                            <div class="direction-row-between">
-                                                <img src="./images/fullfun.png"/>
-                                                <h4 class="text-gray-secondary-shadow-dark" >
-                                                    fullfun
-                                                </h4>
-                                            </div>
-                                        </div> 
-                                    
-                                
-                                    <div onclick="openProjectPage(fullfun)" class="square-out gray-secondary-out one">
-                                        <a href="#">
-                                            <h4 class="text-gray-secondary-shadow-dark">Web site</h4>                                        
-                                            <p> - JavaScript</p>
-                                            <p> - CSS, SEO</p>                                        
-                                            <p> Learn more...</p>
-                                        </a>
-                                    </div>
-
-                                    <div onclick="openProjectPage(fullfun)" class="square-out gray-secondary-out two">
-                                        <div class="circle-out gray-secondary-out color-red">
-                                            <a href="#">
-                                                <img class="play" src = "./images/arrow-up.png"/>
-                                            </a>
-                                        </div>                                        
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="portfolio-card last">
-                            <div  class="square-out gray-secondary-out">
-                                <div class="square-in gray-secondary-in">
-                                    <div class="square-out gray-secondary-in">  
-                                    <div class="card">                                        
-                                        <div class="direction-row-between">
-                                            <img src="./images/social-media-marketing.png"/>
-                                            <h4 class="text-gray-secondary-shadow-dark" >
-                                                digital-marketing, design
-                                            </h4>
-                                        </div>
-                                    </div>
-                                
-                                    <div onclick="openProjectPage(dm)" class="square-out gray-secondary-out one">
-                                        <a href="#">
-                                            <h4 class="text-gray-secondary-shadow-dark">Design</h4>
-                                            <p> - design</p>  
-                                            <p> - photo,DM</p>                                      
-                                            <p> Learn more...</p>
-                                        </a>
-                                    </div>
-
-                                    <div onclick="openProjectPage(dm)" class="square-out gray-secondary-out two">
-                                        <div  class="circle-out gray-secondary-out color-red">
-                                            <a href="#">
-                                                <img class="play" src = "./images/arrow-up.png"/>
-                                            </a>
-                                        </div>                                        
-                                    </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                       
-                       
-                    </div>
-                    <div class="direction-row-between">
-                        <div class="circle-out gray-secondary-out">
-                            <div class="circle-in gray-secondary-in">
-                            </div>
-                        </div>
-                        <div class="circle-out gray-secondary-out">
-                            <div class="circle-in gray-secondary-in">
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-            </section>
-            <section  class="project">                
-            </section>
-            
-            <section class="contact">
-                <br/>
-                
-                <div class="direction-row">
-                    <h4 class="text-gray-secondary-shadow-dark">
-                    You can contact me by:
-                    </h4>
-                    <div class="contact-target">
-                        <p>
-                            gitHub
-                        </p>
-                        <br/>
-                        <div class="circle-out red-secondary-out">                            
-                            <a href="https://github.com/tatjama" target="_blank">
-                                <img id = "gitHub-image" src="./images/github.png" alt="github"/>
-                            </a>
-                        </div>   
-                    </div>
-                    <div class="contact-target">                        
-                        <p>
-                            linkedIn
-                        </p>
-                        <br/>
-                        <div class="circle-out red-secondary-out">
-                            <a href="https://www.linkedin.com/in/tatjana-marković-919501189" target="_blank">
-                                <img id="linkedIn-image" src="./images/linkedin (2).png" alt="github"/>
-                            </a>
-                        </div>
-                    </div>
-                    
-                     <div class="contact-target">                        
-                        <p>
-                            e-mail
-                        </p>
-                        <br/>
-                        <div onclick="showEMail()" class="circle-out red-secondary-out">
-                            <a href="#e-mail">
-                                <img id="e-mail-image" src="./images/send-mail.png" alt="github"/>
-                            </a>
-                        </div>
-
-                     </div>   
-                     <h4 id="e-mail" class="text-gray-secondary-shadow-dark">
-                         tanja120a@gmail.com
-                     </h4>                   
-                </div>
-               
-            </section>    
-            
-                <div class="credentials">
-                    <h4>Credentials:</h4>
-                    <div class="direction-row">
-                        <div>                    
-                            Icons made by <a target="_blank" href="https://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-                        </div>
-                        <div>
-                        Icons made by <a target="_blank" href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-                        </div>
-                        <div>
-                            Icons made by <a href="https://www.flaticon.com/authors/monkik" title="monkik">monkik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-                        </div>
-                        <div>
-                            Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-                        </div>
-                    </div>
-                </div>            
-        </div>     
+        <div id="content" >
+           
+        </div>   
+        </div>      
     </body>
     <script type = "text/javascript" src = "./js/index.js"></script>
