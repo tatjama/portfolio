@@ -95,6 +95,9 @@ nav{
 }
 .card{
     margin-bottom: 25px;
+    img{
+        filter: drop-shadow(2px 2px 2px $grayShadowDarker);
+    }
     h4{
         width: 95px;
     }
@@ -118,10 +121,21 @@ nav{
     }
 }
 .play{
-    transform: rotate(-30deg);
-    width: 30px;
-    padding-bottom: 25px;
-    padding-left: 8px;
+    height: 26px;
+    width: auto;
+    padding-left: 7px;
+    padding-top: 4px;
+    
+}
+.light-mode{
+    .play{
+        filter: drop-shadow(2px 2px 2px $accentShadowLighter);
+    }
+}
+.dark-mode{
+    .play{
+        filter: drop-shadow(2px 2px 2px rgb(49, 1, 1));
+    }
 }
 .project{
     display: none;
@@ -133,6 +147,9 @@ nav{
     padding: 15% 10%;
     div{
         padding: 5%;
+    }
+    img{
+        filter: drop-shadow(2px 2px 2px $grayShadowDarker);
     }
     .side-menu{
         @include flex(1px, space-between, column );       

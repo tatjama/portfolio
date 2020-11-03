@@ -1,5 +1,6 @@
 /*DARK MODE*/
-.dark-mode span{ 
+.dark-mode span,
+.light-mode span{ 
      text-shadow: 4px 4px 8px $grayShadow, -4px -4px 8px $grayShadowDark;   
     color: $accentPrimaryColor;   
 }   
@@ -51,12 +52,14 @@
 }
 
 @media screen and (max-width: 800px){    
-    .dark-mode h1{
+    .dark-mode h1, 
+    .light-mode h1{
         text-shadow: 3px 3px 6px $grayShadowDark, -3px -3px 6px $grayShadow;
     }
 }
 @media screen and (max-width: 630px){    
-    .dark-mode h1{
+    .dark-mode h1,
+    .light-mode h1{
         color: $graySecondaryColor;
         text-shadow: 2px 2px 4px $grayShadowDark, -2px -2px 4px $grayShadow;
     }

@@ -65,7 +65,7 @@ const portfolio = `
                     <div onclick="openProjectPage(rockPaperScissors)" class="square-out gray-secondary-out two">
                         <div class="circle-out gray-secondary-out color-red">
                             <a href="#">
-                                <img class="play" src = "./images/arrow-up.png"/>
+                                <img class="play" src = "./images/play-gray.png"/>
                             </a>
                         </div>                                        
                     </div>
@@ -99,7 +99,7 @@ const portfolio = `
                     <div onclick="openProjectPage(bta)" class="square-out gray-secondary-out two ">
                         <div class="circle-out gray-secondary-out color-red">
                             <a href="#">
-                                <img class="play" src = "./images/arrow-up.png"/>
+                                <img class="play" src = "./images/play-gray.png"/>
                             </a>
                         </div>                                        
                     </div>
@@ -133,7 +133,7 @@ const portfolio = `
                     <div onclick="openProjectPage(eTickets)" class="square-out gray-secondary-out two">
                         <div class="circle-out gray-secondary-out color-red">
                             <a href="#">
-                                <img class="play" src = "./images/arrow-up.png"/>
+                                <img class="play" src = "./images/play-gray.png"/>
                             </a>
                         </div>                                        
                     </div>
@@ -168,7 +168,7 @@ const portfolio = `
                     <div onclick="openProjectPage(fullfun)" class="square-out gray-secondary-out two">
                         <div class="circle-out gray-secondary-out color-red">
                             <a href="#">
-                                <img class="play" src = "./images/arrow-up.png"/>
+                                <img class="play" src = "./images/play-gray.png"/>
                             </a>
                         </div>                                        
                     </div>
@@ -201,7 +201,7 @@ const portfolio = `
                     <div onclick="openProjectPage(dm)" class="square-out gray-secondary-out two">
                         <div  class="circle-out gray-secondary-out color-red">
                             <a href="#">
-                                <img class="play" src = "./images/arrow-up.png"/>
+                                <img class="play" src = "./images/play-gray.png"/>
                             </a>
                         </div>                                        
                     </div>
@@ -263,7 +263,7 @@ const portfolio = `
             CV
         </p>
         <br/>
-        <div onclick="showEMail()" class="circle-out red-secondary-out">
+        <div class="circle-out red-secondary-out">
             <a target="_blank" title="Download CV" href = "./downloads/tatjana_markovic_cv.pdf">
                 <img id="portfolio-image" src="./images/portfolio.png" alt="portfolio"/>
             </a>            
@@ -378,10 +378,10 @@ const dm = `
 </div> 
 <div class = "side-menu">
                     <a onclick="closeProjectPage()" href = "#portfolio-container">
-                        <img src = "./images/cancel – kopija.png">
+                        <img src = "./images/cancel.png">
                     </a>
                     <a href = "#">
-                        <img src = "./images/up-arrow – kopija.png "/>
+                        <img src = "./images/up-arrow.png "/>
                     </a>        
                 </div>
 <div class ="project-footer"></div>
@@ -435,13 +435,13 @@ const fullfun = `
                 </div>
                 <div class = "side-menu">
                     <a onclick="closeProjectPage()" href = "#portfolio-container">
-                        <img src = "./images/cancel – kopija.png" />
+                        <img src = "./images/cancel.png" />
                     </a>
                     <a id = "go-to-site" target = "_blank" href="https://privatniboravak.com/">
-                        <img src = "./images/up-arrow – kopija.png" alt ="arrow"/>
+                        <img src = "./images/up-arrow.png" alt ="arrow"/>
                     </a>
                     <a href = "#">
-                        <img src = "./images/up-arrow – kopija.png" alt ="arrow"/>
+                        <img src = "./images/up-arrow.png" alt ="arrow"/>
                     </a>        
                 </div>
                 <div class ="project-footer"></div>      
@@ -452,7 +452,7 @@ const rockPaperScissors = `
 <div class="direction-row-between">
     <a href="https://tatjama.github.io/fem-rock-paper-scissors-master/" target = "_blank">
         
-        <img class="circle-out gray-secondary-out " src="./images/rock (1).png" alt="rock, paper, scissors"/>
+        <img class="circle-out gray-secondary-out " src="./images/rock.png" alt="rock, paper, scissors"/>
     </a>
     <h2 id="project-header" class="text-gray-secondary-shadow-dark">
         Rock-paper-scissors
