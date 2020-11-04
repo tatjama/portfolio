@@ -763,7 +763,7 @@ const eTickets = `
                     <a onclick="closeProjectPage()" href = "#portfolio-container">
                         <img src = "./images/cancel.png" />
                     </a>
-                    <a id = "go-to-site" target = "_blank" href="https://tatjama.github.io/e-tickets/">
+                    <a id = "go-to-site" target = "_blank" href="https://tatjama.github.io/e-ticket/" >
                         <img src = "./images/up-arrow.png"/>
                     </a>
                     <a href = "#">
