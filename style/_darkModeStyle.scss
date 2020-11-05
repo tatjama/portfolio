@@ -28,7 +28,7 @@ img{
     @include flex(20px 10px, space-around, row);
 }
 .direction-row-between{
-    @include flex(10px,space-between, row);    
+    @include flex(10px 0px 0px 0px,space-between, row);    
 }
 nav{
     .direction-row{
@@ -94,7 +94,7 @@ nav{
     }     
 }
 .card{
-    margin-bottom: 25px;
+    height: 90px;
     img{
         filter: drop-shadow(2px 2px 2px $grayShadowDarker);
     }
@@ -107,17 +107,11 @@ nav{
         border-bottom-left-radius: 30px;
         border-top-left-radius: 30px;
     }
-    .card{
-        margin-bottom: 5px;
-    }
 }
 .last{
     .square-out, .square-in{
         border-bottom-right-radius: 30px;
         border-top-right-radius: 30px;
-    }
-    .card{
-        margin-bottom: 5px;
     }
 }
 .play{

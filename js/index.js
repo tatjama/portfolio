@@ -14,7 +14,7 @@ const loadPortfolio = () => {
 
 const portfolio = `
 <header class="text-gray-secondary-color text-gray-secondary-shadow">
-<h1>Hello, my name is <span>Tanja</span></h1>
+<h1>Hello, my name is <span>Tatjana</span></h1>
 <h1>I'm Frontend developer</h1>            
 <h1>This is my portfolio</h1>                
 </header>
@@ -35,45 +35,8 @@ const portfolio = `
         Let me introduce myself through my projects...
     </h2>
     <div  class="direction-row portfolio-cards ">
+        
         <div class="portfolio-card first">
-            <div  class="square-out gray-secondary-out">
-                <div class="square-in gray-secondary-in">
-                    <div class="square-out gray-secondary-in">     
-                    <div class="card">                                        
-                        <div class="direction-row-between">
-                            <img class="large" src="./images/rock (1).png"/>
-                            <h4 class="text-gray-secondary-shadow-dark" >
-                                rock-paper-scissors
-                            </h4>     
-                                                                   
-                        </div>
-                        
-                    </div>
-                
-                    <div onclick="openProjectPage(rockPaperScissors)" class="square-out gray-secondary-out one">
-                        
-                        <a href="#">
-                            <div>
-                            <h4 class="text-gray-secondary-shadow-dark">Game</h4>
-                            <p> - JavaScript </p>   
-                            <p> - Sass</p>                                     
-                            <p> Learn more...</p>
-                        </div>
-                        </a>
-                    </div>
-
-                    <div onclick="openProjectPage(rockPaperScissors)" class="square-out gray-secondary-out two">
-                        <div class="circle-out gray-secondary-out color-red">
-                            <a href="#">
-                                <img class="play" src = "./images/play-gray.png"/>
-                            </a>
-                        </div>                                        
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="portfolio-card ">
             <div  class="square-out gray-secondary-out">
                 <div class="square-in gray-secondary-in">
                     <div class="square-out gray-secondary-in">   
@@ -81,7 +44,7 @@ const portfolio = `
                             <div class="direction-row-between">
                                 <img class="large" src="./images/travel-and-tourism.png"/>
                                 <h4 class="text-gray-secondary-shadow-dark" >
-                                    bta
+                                    business-travel-agency
                                 </h4>
                                 
                             </div>
@@ -138,6 +101,44 @@ const portfolio = `
                         </div>                                        
                     </div>
                 </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-card">
+            <div  class="square-out gray-secondary-out">
+                <div class="square-in gray-secondary-in">
+                    <div class="square-out gray-secondary-in">     
+                    <div class="card">                                        
+                        <div class="direction-row-between">
+                            <img class="large" src="./images/rock (1).png"/>
+                            <h4 class="text-gray-secondary-shadow-dark" >
+                                rock-paper-scissors
+                            </h4>     
+                                                                   
+                        </div>
+                        
+                    </div>
+                
+                    <div onclick="openProjectPage(rockPaperScissors)" class="square-out gray-secondary-out one">
+                        
+                        <a href="#">
+                            <div>
+                            <h4 class="text-gray-secondary-shadow-dark">Game</h4>
+                            <p> - JavaScript </p>   
+                            <p> - Sass</p>                                     
+                            <p> Learn more...</p>
+                        </div>
+                        </a>
+                    </div>
+
+                    <div onclick="openProjectPage(rockPaperScissors)" class="square-out gray-secondary-out two">
+                        <div class="circle-out gray-secondary-out color-red">
+                            <a href="#">
+                                <img class="play" src = "./images/play-gray.png"/>
+                            </a>
+                        </div>                                        
+                    </div>
+                    </div>
                 </div>
             </div>
         </div>
