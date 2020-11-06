@@ -1,0 +1,31 @@
+.intro{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: $graySecondaryColor;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: $graySecondaryColor;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+}
+.hide{
+    background-color: $graySecondaryColor;
+    overflow: hidden;
+}
+.hide span{
+    transform: translateY(100%);
+    display: inline-block;
+}
+#big-text{
+    text-align: center;
+}

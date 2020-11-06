@@ -13,11 +13,6 @@ const loadPortfolio = () => {
 }
 
 const portfolio = `
-<header class="text-gray-secondary-color text-gray-secondary-shadow">
-<h1>Hello, my name is <span>Tatjana</span></h1>
-<h1>I'm Frontend developer</h1>            
-<h1>This is my portfolio</h1>                
-</header>
 <section class="portfolio">
 <div id="portfolio-container" class="square-out-round gray-secondary-out">
     <div class="direction-row-between">
@@ -31,9 +26,6 @@ const portfolio = `
         </div>
 
     </div>
-    <h2 class="text-gray-secondary-color-darker">
-        Let me introduce myself through my projects...
-    </h2>
     <div  class="direction-row portfolio-cards ">
         
         <div class="portfolio-card first">
