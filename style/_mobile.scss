@@ -45,7 +45,7 @@
 @media screen and (max-width: 500px){   
     .dark-mode span,
     .light-mode span{ 
-     text-shadow: 2px 2px 4px $grayShadow, -2px -2px 4px $grayShadowDark;   
+     //text-shadow: 2px 2px 4px $grayShadow, -2px -2px 4px $grayShadowDark;   
     color: $accentPrimaryColor;   
     }   
     .direction-row-between{
