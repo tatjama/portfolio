@@ -1,3 +1,6 @@
+const loadPortfolio = () => {
+    document.querySelector('#content').innerHTML = portfolio;
+}
 const openProjectPage = (project) => {
     document.querySelector('.project').style.display = "block";  
     document.querySelector('.project').innerHTML = project;  
@@ -8,9 +11,7 @@ const closeProjectPage = () => {
 const showEMail = () => {
     document.querySelector('#e-mail').style.visibility = "visible";
 }
-const loadPortfolio = () => {
-    document.querySelector('#content').innerHTML = portfolio;
-}
+
 
 const portfolio = `
 <section class="portfolio">
@@ -219,7 +220,7 @@ const portfolio = `
 </div>
 
 </section>
-<section  class="project">                
+<section   class="project">                
 </section>
 
 <section class="contact">
@@ -302,7 +303,8 @@ const portfolio = `
 `
 
 const dm = `
-<div  class="square-out gray-secondary-in">
+<div id = "project-container"  onmousemove="move(event)" onmouseleave="stopAnimate(event)" onmouseenter = "transition(event)" >
+<div id = "card" class="square-out gray-secondary-in">
 <div class="direction-row-between">
     <a href="#" target = "_blank">        
         <img class="circle-out gray-secondary-out " src="./images/social-media-marketing.png" alt="social media"/>
@@ -368,7 +370,6 @@ const dm = `
         Close                        
     </button>
 </a>
-</div> 
 <div class = "side-menu">
                     <a onclick="closeProjectPage()" href = "#portfolio-container">
                         <img src = "./images/cancel.png">
@@ -376,7 +377,9 @@ const dm = `
                     <a href = "#">
                         <img src = "./images/up-arrow.png "/>
                     </a>        
-                </div>
+</div>
+</div>
+</div> 
 <div class ="project-footer"></div>
 `
 const fullfun = `
@@ -601,8 +604,8 @@ const rockPaperScissors = `
     </div>
 `
 const eTickets = `
-<div  class="square-out gray-secondary-in">
-                    <div class="direction-row-between">
+<div class="square-out gray-secondary-in">
+                    <div  class="direction-row-between">
                         <a href="https://tatjama.github.io/e-ticket/" target = "_blank">
                             
                             <img class="circle-out gray-secondary-out " src="./images/drama.png" alt="drama"/>

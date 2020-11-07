@@ -29,3 +29,47 @@
 #big-text{
     text-align: center;
 }
+//animation project
+#project-container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+#card{
+    
+    height: 80%;
+    margin: auto;
+    padding: 0px;
+    h2{
+        font-size: 1rem;
+    }
+    h3, p{
+        font-size: smaller;
+    }
+    transform-style: preserve-3d;
+    img, button, h2, .side-menu{
+        transition: all 0.75s ease-out;
+    }
+    ul, ol{
+        padding: 0px;
+    }
+    button{
+        background: transparent;
+        margin: 5%;
+        width: 90%;
+        &:hover{
+            background: $accentPrimaryColor;
+        }
+    }
+    .side-menu{
+        height: 300px;
+    }
+}
+.project{
+    perspective: 1500px;
+}
+#project{
+    transition: all 0.75s ease-out;
+}
