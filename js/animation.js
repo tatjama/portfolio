@@ -26,17 +26,15 @@ function transition(e) {
     const card = document.querySelector('#card');
     const img = document.querySelector("#card img");
     const title = document.querySelector("#card h2");
-    const h3 = document.querySelector('h3');
     const project = document.querySelector('#project');
     const button = document.querySelector('button');
     const sideMenu = document.querySelector('.side-menu');
     card.style.transition = "none"
-    img.style.transform = "translateZ(250px)";
-    title.style.transform = "translateZ(250px)";
-    h3.style.transform = "translateZ(150px) ";
-    project.style.transform = "translateZ(150px)";
-    button.style.transform = "translateZ(200px)";
-    sideMenu.style.transform = "translateZ(200px)";
+    img.style.transform = "translateZ(225px)";
+    title.style.transform = "translateZ(200px)";
+    project.style.transform = "translateZ(125px)";
+    button.style.transform = "translateZ(100px)";
+    sideMenu.style.transform = "translateZ(175px)";
     }
 }
 function stopAnimate(e) {
@@ -46,13 +44,11 @@ function stopAnimate(e) {
     card.style.transform = `rotateY(0deg) rotateX(0deg)`; 
     const img = document.querySelector("#card img");
     const title = document.querySelector("#card h2");
-    const h3 = document.querySelector('h3');
     const project = document.querySelector('#project');    
     const sideMenu = document.querySelector('.side-menu');
     const button = document.querySelector('button');
     img.style.transform = "translateZ(0px)";
     title.style.transform = "translateZ(0px) ";
-    h3.style.transform = "translateZ(0px) ";
     project.style.transform = "translateZ(0px)";
     button.style.transform = "translateZ(0px)";
     sideMenu.style.transform = "translateZ(0px)";
