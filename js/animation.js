@@ -11,18 +11,18 @@ timeLine.fromTo("nav", {opacity: 0}, {opacity: 1, duration: 1});
 
 //animation project
 
-//const container = document.getElementById('container-project');
-//const project = document.querySelector(".project");
-//
+
 function move(e){
-    //console.log(e.pageX, e.pageY);
+    if(window.innerWidth > 1000){
     const card = document.querySelector('#card');
     let xAxis = (window.innerWidth /2- e.pageX)/10;
     let yAxis = (window.innerHeight / 4  - e.pageY)/45;
     card.style.transform = ` rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
 }
+}
 
 function transition(e) {
+    if(window.innerWidth > 1000){
     const card = document.querySelector('#card');
     const img = document.querySelector("#card img");
     const title = document.querySelector("#card h2");
@@ -37,6 +37,7 @@ function transition(e) {
     project.style.transform = "translateZ(150px)";
     button.style.transform = "translateZ(200px)";
     sideMenu.style.transform = "translateZ(200px)";
+    }
 }
 function stopAnimate(e) {
     
