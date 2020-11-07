@@ -37,8 +37,7 @@
     align-items: center;
     margin: auto;
 }
-#card{
-    
+#card{    
     height: 80%;
     margin: auto;
     padding: 0px;
@@ -72,4 +71,12 @@
 }
 #project{
     transition: all 0.75s ease-out;
+}
+@media screen and (max-width: 1040px){
+    #project-container{
+        width: 100%;
+        .direction-row-between{
+            flex-direction: row;
+        }
+    }
 }
