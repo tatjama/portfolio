@@ -371,12 +371,12 @@ const dm = `
     </button>
 </a>
 <div class = "side-menu">
-                    <a onclick="closeProjectPage()" href = "#portfolio-container">
-                        <img src = "./images/cancel.png">
-                    </a>
-                    <a href = "#">
-                        <img src = "./images/up-arrow.png "/>
-                    </a>        
+    <a onclick="closeProjectPage()" href = "#portfolio-container">
+        <img src = "./images/cancel.png">
+    </a>
+    <a href = "#">
+        <img src = "./images/up-arrow.png "/>
+    </a>        
 </div>
 </div>
 </div> 

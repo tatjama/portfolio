@@ -60,6 +60,7 @@
         width: 90%;
         &:hover{
             background: $accentShadowDarker;
+            background: $accentShadowDarkerTransparent;
         }
     }
     .side-menu{
@@ -71,16 +72,6 @@
 }
 #project{
     transition: all 0.75s ease-out;
-}
-.circle{
-    width: 25rem;
-    height: 25rem;
-    border-radius: 50%;
-    background: linear-gradient(to right, teal, pink );
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    z-index: -1;
 }
 @media screen and (max-width: 1040px){
     #project-container{
